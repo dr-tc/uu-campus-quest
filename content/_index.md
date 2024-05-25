@@ -5,7 +5,24 @@ draft = false
 
 +++
 
+{{< row >}}
+{{< column >}}
+### Column 1 Content
 
+<div class="red-text">
+  This is some content for the first column with red text.
+</div>
+
+{{< column-end >}}
+{{< column >}}
+### Column 2 Content
+
+<div class="red-text">
+  This is some content for the second column with red text.
+</div>
+
+{{< column-end >}}
+{{< row-end >}}
 
 ![image here](images/header.png#center)
 
