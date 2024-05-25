@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'UU Campus Quest'
 theme = 'PaperMod'
 
+[params.assets]
+favicon = "/favicon.ico"
+
 
 [menu]
 [[menu.main]]

@@ -1,0 +1,22 @@
+.red-text {
+  color: red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.column {
+  flex: 1;
+  padding: 15px;
+  box-sizing: border-box;
+  min-width: 300px; /* Minimum width for columns to ensure they don't get too narrow */
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 100%;
+  }
+}
