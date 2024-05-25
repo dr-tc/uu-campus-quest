@@ -1,4 +1,23 @@
 baseURL = 'https://dr-tc.github.io/uu-campus-quest/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'UU Campus Quest'
 theme = 'PaperMod'
+
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Explorers Trail'
+  url = '/explorers-trail'
+  weight = 15
+[[menu.main]]
+  name = 'Team Odyssey'
+  url = '/team-odyssey'
+  weight = 20
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 25
