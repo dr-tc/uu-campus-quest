@@ -17,13 +17,6 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/uu-campus-quest/explorers-trail/</link>
-      <pubDate>Mon, 01 Apr 2024 11:39:24 +0100</pubDate>
-      <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-1/</guid>
@@ -56,6 +49,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-5/</guid>
       <description>put narrative text here</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/explorers-trail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
+      <description></description>
     </item>
     <item>
       <title></title>

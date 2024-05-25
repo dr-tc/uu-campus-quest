@@ -2,20 +2,17 @@
 title = ''
 
 draft = false
+
 +++
 
 
 
 ![image here](images/header.png#center)
 
-### Welcome to Campus Quest, Adventurer!
-
-
+### Welcome to Campus Quest, Adventurer
+\dsxz\
 
 Your journey begins today at the gates of Ulster University. You are a new student, setting foot on this vast and vibrant campus for the first time. But fear not, for you are not alone. As part of this grand adventure, you will join forces with fellow explorers, working together to uncover the secrets and treasures hidden within the university grounds.
-
-This is an introductory paragraph that gives an overview of the content.
-
 
 
 <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
@@ -31,11 +28,9 @@ This is an introductory paragraph that gives an overview of the content.
   </div>
 </div>
 
-
 ### Stage One: The Explorer’s Trail
 
 In the first stage of your quest, you and your team will embark on the Explorer’s Trail. This is not just a tour of the campus; it is a series of challenges designed to help you master the lay of the land. You will visit essential locations, from the bustling campus reception to the serene student wellbeing office. Each stop is a critical waypoint that will enhance your knowledge and prepare you for the journey ahead.
-
 
 ### Stage Two: Team Odyssey
 
