@@ -2,6 +2,9 @@ baseURL = 'https://dr-tc.github.io/uu-campus-quest/'
 languageCode = 'en-us'
 title = 'UU Campus Quest'
 theme = 'PaperMod'
+[params]
+defaultTheme = "dark"
+
 
 [params.assets]
 favicon = "/favicon.ico"

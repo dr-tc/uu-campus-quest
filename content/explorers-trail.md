@@ -6,7 +6,14 @@ draft = false
 
 +++
 ![image here](../images/explorer.png#center)
+{{< row >}}
+{{< column >}}
+{{< div-center>}} {{< h2-start >}}Roll the dice to choose a quest.{{< h2-end>}}{{< div-end>}}{{< column-end >}}
+{{< column >}}
+![image here](../images/dice.png#center)
 
+{{< column-end >}}
+{{< row-end >}}
 
 [![image here](../images/explorer-1.png#center)](../explorer-1)
 [![image here](../images/explorer-2.png#center)](../explorer-2)

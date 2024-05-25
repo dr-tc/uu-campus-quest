@@ -30,46 +30,14 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><link rel="stylesheet" href="/css/custom.css">
   
 </head>
 
-<body class="list" id="top">
+<body class="list dark" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
 
 </script>
@@ -106,34 +74,30 @@
     </nav>
 </header>
 <main class="main"> 
-<div class="post-content"><p><div class="row">
-<div class="column"></p>
-<h3 id="column-1-content">Column 1 Content<a hidden class="anchor" aria-hidden="true" href="#column-1-content">#</a></h3>
-<!-- raw HTML omitted -->
-<p></div>
-<div class="column"></p>
-<h3 id="column-2-content">Column 2 Content<a hidden class="anchor" aria-hidden="true" href="#column-2-content">#</a></h3>
-<!-- raw HTML omitted -->
-<p></div>
-</div></p>
-<p><img loading="lazy" src="images/header.png#center" alt="image here"  />
+<div class="post-content"><p><img loading="lazy" src="images/header.png#center" alt="image here"  />
 </p>
 <h3 id="welcome-to-campus-quest-adventurer">Welcome to Campus Quest, Adventurer<a hidden class="anchor" aria-hidden="true" href="#welcome-to-campus-quest-adventurer">#</a></h3>
-<p>\dsxz\</p>
-<p>Your journey begins today at the gates of Ulster University. You are a new student, setting foot on this vast and vibrant campus for the first time. But fear not, for you are not alone. As part of this grand adventure, you will join forces with fellow explorers, working together to uncover the secrets and treasures hidden within the university grounds.</p>
-<!-- raw HTML omitted -->
-<pre><code>Conddddddtext, images, and other Markdown content.
-</code></pre>
-<!-- raw HTML omitted -->
-<pre><code>Content for the second column goes here. This can also include text, images, and other Markdown content.
-</code></pre>
-<!-- raw HTML omitted -->
+<p><div style="text-align: justify">
+Your journey begins today at the gates of Ulster University. You are a new student, setting foot on this vast and vibrant campus for the first time. But fear not, for you are not alone. As part of this grand adventure, you will join forces with fellow explorers, working together to uncover the secrets and treasures hidden within the university grounds.
+</div></p>
+<p><div class="row">
+<div class="column"></p>
 <h3 id="stage-one-the-explorers-trail">Stage One: The Explorer’s Trail<a hidden class="anchor" aria-hidden="true" href="#stage-one-the-explorers-trail">#</a></h3>
-<p>In the first stage of your quest, you and your team will embark on the Explorer’s Trail. This is not just a tour of the campus; it is a series of challenges designed to help you master the lay of the land. You will visit essential locations, from the bustling campus reception to the serene student wellbeing office. Each stop is a critical waypoint that will enhance your knowledge and prepare you for the journey ahead.</p>
+<p><div style="text-align: justify">
+In the first stage of your quest, you and your team will embark on the Explorer’s Trail. This is not just a tour of the campus; it is a series of challenges designed to help you master the lay of the land. You will visit essential locations, from the bustling campus reception to the serene student wellbeing office. At each stop, search for a QR code that will provide the details of the quest. Each QR code will reveal instructions and tasks that you must complete, making every location a critical waypoint that will enhance your knowledge and prepare you for the journey ahead.</p>
+<p></div>
+</div>
+<div class="column">
+<img loading="lazy" src="images/Find-Me.png#center" alt="image here"  />
+</p>
+<p></div>
+</div>
+<div style="text-align: justify"><a href="explorers-trail" class="btn">ENTER</a>
+</div></p>
 <h3 id="stage-two-team-odyssey">Stage Two: Team Odyssey<a hidden class="anchor" aria-hidden="true" href="#stage-two-team-odyssey">#</a></h3>
 <p>After conquering the Explorer’s Trail, you will advance to the Team Odyssey. This stage focuses on forging strong bonds with your teammates. Through a series of collaborative challenges, you will learn more about each other, develop your teamwork skills, and build a support network that will be invaluable throughout your university life.</p>
 <p>From guessing games and creative drawing exercises to sharing personal stories and uncovering fun facts, the Team Odyssey is designed to deepen your connections and foster a sense of community. Success in these quests is not just about completing tasks but about understanding and appreciating the diverse talents and backgrounds of your peers.</p>
-<p>The Ultimate Goal</p>
+<h3 id="the-ultimate-goal">The Ultimate Goal<a hidden class="anchor" aria-hidden="true" href="#the-ultimate-goal">#</a></h3>
 <p>Campus Quest is more than a game; it’s your initiation into the university life. By the end of this adventure, you will have a thorough understanding of the campus, newfound friendships, and a stronger sense of belonging. So gear up, roll the dice, and let the quest begin. Your first challenge awaits!</p>
 <p>Good luck, brave adventurers! The path to knowledge and camaraderie lies before you.</p>
 
