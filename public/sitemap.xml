@@ -8,9 +8,6 @@
     <loc>http://localhost:1313/uu-campus-quest/about/</loc>
     <lastmod>2024-04-01T11:39:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/uu-campus-quest/explorers-trail/</loc>
-    <lastmod>2024-04-01T11:39:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/uu-campus-quest/explorer-1/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/explorer-2/</loc>
@@ -20,6 +17,8 @@
     <loc>http://localhost:1313/uu-campus-quest/explorer-4/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/explorer-5/</loc>
+  </url><url>
+    <loc>http://localhost:1313/uu-campus-quest/explorers-trail/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/odyssey-1/</loc>
   </url><url>
