@@ -10,5 +10,27 @@ draft = false
 
 
 {{< div-justify >}}
-Welcome to your first university adventure! Your mission is to navigate your way to the **Campus reception**. This journey is not just a walk; it's a discovery of the heart of your new academic home. Engage with the vibrant campus community, build connections, and immerse yourself in the university atmosphere. Ready your map and step forth with curiosity—your exciting journey begins now. Welcome to your new academic home!
+Your quest if you choose to accept. 
+{{< div-end >}}
+
+
+
+{{< row >}}
+{{< column >}}
+sasa
+{{< column-end >}}
+{{< column >}}
+![image here](../images/bonus.png#center)
+{{< column-end >}}
+{{< row-end >}}
+
+{{< div-center>}}
+![image here](../images/dont-forget.png#center)
+ {{< h2-start >}}Get your card stamped by a Student Success Ambassador! {{< h2-end >}}
+![image here](../images/stamp-card.png#center)
+
+{{< div-end >}}
+
+{{< div-center >}}
+get your card stamped
 {{< div-end >}}

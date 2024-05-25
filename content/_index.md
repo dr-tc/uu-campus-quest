@@ -21,16 +21,27 @@ Your journey begins today at the gates of Ulster University. You are a new stude
 ### Stage One: The Explorer’s Trail
 
 {{< div-justify >}}
+Step One:
 In the first stage of your quest, you and your team will embark on the Explorer’s Trail. This is not just a tour of the campus; it is a series of challenges designed to help you master the lay of the land. You will visit essential locations, from the bustling campus reception to the serene student wellbeing office. At each stop, search for a QR code that will provide the details of the quest. Each QR code will reveal instructions and tasks that you must complete, making every location a critical waypoint that will enhance your knowledge and prepare you for the journey ahead.
 
 {{< div-end >}}
 {{< column-end >}}
 {{< column >}}
 ![image here](images/Find-Me.png#center)
-
 {{< column-end >}}
 {{< row-end >}}
-{{< div-justify >}}{{< button url="explorers-trail" text="ENTER" >}}{{< div-end >}}
+
+
+{{< div-justify >}}
+![image here](images/stamp-card.png#center)
+
+{{< div-end >}}
+
+{{< div-center >}}
+get your card stamped
+{{< div-end >}}
+
+{{< div-center >}}{{< button url="explorers-trail" text="ENTER" >}}{{< div-end >}}
 
 ### Stage Two: Team Odyssey
 
