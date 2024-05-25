@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>UU Campus Quest</title>
-    <link>http://localhost:63523/uu-campus-quest/</link>
+    <link>http://localhost:1313/uu-campus-quest/</link>
     <description>Recent content on UU Campus Quest</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Apr 2024 11:39:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:63523/uu-campus-quest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/uu-campus-quest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/about/</link>
+      <link>http://localhost:1313/uu-campus-quest/about/</link>
       <pubDate>Mon, 01 Apr 2024 11:39:24 +0100</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/about/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/about/</guid>
       <description>Get your dice ready for an adventure around the campus! Let&amp;rsquo;s start with the Explorer&amp;rsquo;s Trail I think I need to complete the other pages first. </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/explorers-trail/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorers-trail/</link>
       <pubDate>Mon, 01 Apr 2024 11:39:24 +0100</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/explorers-trail/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/explorer-1/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/explorer-1/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-1/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/explorer-2/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/explorer-2/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-2/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/explorer-3/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/explorer-3/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-3/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/explorer-4/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/explorer-4/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-4/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/explorer-5/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/explorer-5/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-5/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/odyssey-1/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/odyssey-1/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-1/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/odyssey-2/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/odyssey-2/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-2/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/odyssey-3/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/odyssey-3/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-3/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/odyssey-4/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/odyssey-4/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-4/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/odyssey-5/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/odyssey-5/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-5/</guid>
       <description>put narrative text here</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:63523/uu-campus-quest/team-odyssey/</link>
+      <link>http://localhost:1313/uu-campus-quest/team-odyssey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63523/uu-campus-quest/team-odyssey/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/team-odyssey/</guid>
       <description></description>
     </item>
   </channel>
