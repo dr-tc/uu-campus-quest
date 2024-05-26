@@ -23,7 +23,7 @@ To commemorate the beginning of your university journey, ask a passing student t
 {{< div-end >}}
 
 
-*{{< styled-link href="../explorers-trai" >}}Return to the Explorer's Trail{{< /styled-link >}}.*
+*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
 
 ___
 {{< div-center>}}
