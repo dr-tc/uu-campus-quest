@@ -22,4 +22,8 @@ draft = false
 [![image here](../images/explorer-5.png#center)](../explorer-5)
 ___
 
+### Once all ***five*** quests have been completed, return home to MH, your ship awaits!
+
+___
+
 [![image here](../images/lost-icon.png#center)](../lost)
