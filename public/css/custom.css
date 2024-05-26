@@ -40,3 +40,21 @@
 h1 {
   color: #5D8622;
 }
+
+
+/* Define custom styling for the styled-link class */
+.styled-link {
+  color:  #5D8622; /* Your desired link color */
+  text-decoration: none; /* Optional: remove underline */
+}
+
+/* Change the color of the link on hover */
+.styled-link:hover {
+  color: #8bca33; /* Your desired hover color */
+  text-decoration: underline; /* Optional: underline on hover */
+}
+
+/* Change the color of the link on active state */
+.styled-link:active {
+  color: #263315; /* Your desired active color */
+}
