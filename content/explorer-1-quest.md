@@ -31,6 +31,3 @@ sasa
 
 {{< div-end >}}
 
-{{< div-center >}}
-get your card stamped
-{{< div-end >}}

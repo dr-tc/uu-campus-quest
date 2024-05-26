@@ -1,5 +1,5 @@
-.red-text {
-  color: red;
+.green-text {
+  color: #5D8622;
 }
 
 .row {
@@ -23,16 +23,20 @@
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #5D8622;
   text-align: center;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50px;
+  border-color:#2b2557;
   transition: background-color 0.3s;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #425725;
+}
+h1 {
+  color: #5D8622;
 }

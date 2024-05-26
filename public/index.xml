@@ -20,7 +20,7 @@
       <link>http://localhost:1313/uu-campus-quest/explorer-1-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-1-quest/</guid>
-      <description>Your quest if you choose to accept. sasa Get your card stamped by a Student Success Ambassador! get your card stamped </description>
+      <description>Your quest if you choose to accept. sasa Get your card stamped by a Student Success Ambassador! </description>
     </item>
     <item>
       <title></title>
@@ -63,6 +63,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
       <description>Roll the dice to choose a quest. </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/lost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/lost/</guid>
+      <description>Ok, don&amp;rsquo;t panic, find a place to sit down and take a look at the map. </description>
     </item>
     <item>
       <title></title>
