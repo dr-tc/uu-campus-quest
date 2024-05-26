@@ -26,7 +26,7 @@ In the first stage of your quest, you and your team will embark on the Explorerâ
 {{< div-end >}}
 {{< column-end >}}
 {{< column >}}
-![image here](images/dice.png#center)
+![image here](images/find-me.png#center)
 {{< column-end >}}
 {{< row-end >}}
 
