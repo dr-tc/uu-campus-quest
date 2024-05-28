@@ -9,9 +9,13 @@ draft = false
 ![image here](../images/trail-1.png#center)
 
 {{< div-justify >}}
-Welcome to your first university adventure! Your mission is to navigate your way to the **Campus reception**. This journey is not just a walk; it's a discovery of the heart of your new academic home. Engage with the vibrant campus community, build connections, and immerse yourself in the university atmosphere. Ready your map and step forth with curiosity—your exciting journey begins now. Welcome to your new academic home!
+This quest will lead you to the ***Car Parks office***, a crucial waypoint for anyone planning to navigate the ins and outs of campus parking. This is where you’ll gather essential information on parking permits, rules, and the best spots to park. Along the way, pay close attention to the signs and landmarks; your directional skills will be put to the test.
+
+Whether you're a seasoned driver or new to campus, mastering the art of parking here is a valuable skill. Embrace the journey, trust your instincts, and make your way to the Car Parks office. Your adventure continues, and with each step, you become more adept at navigating your new academic home.
+
+Ready to take on the challenge? Let’s go!
 {{< div-end >}}
-{{< div-center >}}{{< button url="../explorer-1-quest" text="ENTER" >}}{{< div-end >}}
+{{< div-center >}}{{< button url="../explorer-2-quest" text="ENTER" >}}{{< div-end >}}
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
 
 ___

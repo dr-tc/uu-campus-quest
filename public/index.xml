@@ -33,10 +33,19 @@ To commemorate the beginning of your university journey, ask a passing student t
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/uu-campus-quest/explorer-2-quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-2-quest/</guid>
+      <description>You have found the hole in the wall. Easy to miss, but essential when you need to sort out a parking dilema!
+Your quest is to take a look at the UU Car Parking webpages and work out how much 6 hours parking will cost a student. Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student.</description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-2/</guid>
-      <description>Welcome to your first university adventure! Your mission is to navigate your way to the Campus reception. This journey is not just a walk; it&amp;rsquo;s a discovery of the heart of your new academic home. Engage with the vibrant campus community, build connections, and immerse yourself in the university atmosphere. Ready your map and step forth with curiosity—your exciting journey begins now. Welcome to your new academic home! ENTERReturn to the Explorer&#39;s Trail</description>
+      <description>This quest will lead you to the Car Parks office, a crucial waypoint for anyone planning to navigate the ins and outs of campus parking. This is where you’ll gather essential information on parking permits, rules, and the best spots to park. Along the way, pay close attention to the signs and landmarks; your directional skills will be put to the test.
+Whether you&amp;rsquo;re a seasoned driver or new to campus, mastering the art of parking here is a valuable skill.</description>
     </item>
     <item>
       <title></title>
