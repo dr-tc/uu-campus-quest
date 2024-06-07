@@ -24,5 +24,3 @@ draft = false
 
 - All other images created using {{< styled-link-new-window href="https://www.canva.com/" >}}Canva.com{{< /styled-link-new-window >}}
 - Site hosted on {{< styled-link-new-window href="https://pages.github.com/" >}}GitHub Pages{{< /styled-link-new-window >}} using the {{< styled-link-new-window href="https://gohugo.io/" >}}Hugo{{< /styled-link-new-window >}} framework. 
-
-![uni-diagram](../images/uni-diagram.gif)
