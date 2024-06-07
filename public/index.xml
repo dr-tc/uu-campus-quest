@@ -17,6 +17,13 @@
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/uu-campus-quest/easter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/easter/</guid>
+      <description>On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just secrets—they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you Return to the Explorer&#39;s Trail.</description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-1-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-1-quest/</guid>
@@ -73,7 +80,7 @@ Whether you&amp;rsquo;re a seasoned driver or new to campus, mastering the art o
       <link>http://localhost:1313/uu-campus-quest/explorers-trail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
-      <description>Roll the dice to choose a quest. Once all five quests have been completed, return home to MH, your ship awaits! </description>
+      <description>Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! Look out for Easter eggs hidden in treasure chests at some of the locations. If you crack the lock, prizes await! </description>
     </item>
     <item>
       <title></title>
