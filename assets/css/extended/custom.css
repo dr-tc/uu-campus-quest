@@ -6,13 +6,18 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
+  align-items: center;
 }
 
 .column {
   flex: 1;
-  padding: 15px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   min-width: 300px; /* Minimum width for columns to ensure they don't get too narrow */
+  align-items: center; /* Vertical alignment */
+  
 }
 
 @media (max-width: 768px) {
@@ -20,3 +25,9 @@
     flex: 100%;
   }
 }
+.container {
+  display: flex;
+  align-items: center;
+  
+}
+

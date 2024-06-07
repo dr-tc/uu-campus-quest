@@ -5,17 +5,22 @@ title = ''
 draft = false
 
 +++
-![image here](../images/chest-3.png#center)
+{{< div-center >}}{{< h1-start >}}Easter Eggs!{{< h1-end >}}{{< div-end >}}
 
 ![image here](../images/easter-eggs.png#center)
 
-{{< div-justify >}}
-On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just secrets—they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you
-{{< div-end >}}
+{{< row >}}
+{{< column >}}
+{{< div-container-start>}} On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. {{< div-container-end>}}{{< column-end >}}
+{{< column >}}{{< div-container-start>}} 
+![image here](../images/chest-3.png#center){{< div-container-end>}}
 
-*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}.*
+{{< column-end >}}
+
+{{< row-end >}}
+
+{{< div-center>}}*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end>}}
 
 ___
-
 
 [![image here](../images/lost-icon.png#center)](../lost)
