@@ -11,7 +11,7 @@ draft = false
 
 ![image here](../images/quest-icon-1.png#right)
 {{< div-justify >}}
-Welcome to Magee's campus reception! You are now in the Martha Magee building, commonly referred to as MD, and affectionately known by students as 'Hogwarts'.
+Welcome to Derry/Londonderry's campus reception! You are now in the Martha Magee building, commonly referred to as MD, and affectionately known by students as 'Hogwarts'.
 
 Your quest is to obtain a campus map. This map will reveal the university's layout, guiding you through its various paths and buildings.
 {{< div-end >}}
