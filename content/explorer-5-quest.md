@@ -24,7 +24,7 @@ bonus
 ___
 {{< div-center>}}
 ![image here](../images/dont-forget.png#center)
- {{< h2-start >}}Get your card stamped by a Student Success Ambassador! {{< h2-end >}}
+ {{< h3-start >}}Get your card stamped by a Student Success Ambassador! {{< h3-end >}}
 ![image here](../images/stamp-card.png#center)
 
 {{< div-end >}}
