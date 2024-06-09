@@ -14,11 +14,12 @@ This quest will lead you to the ***Car Parks office***, a crucial waypoint for a
 Whether you're a seasoned driver or new to campus, mastering the art of parking here is a valuable skill. Embrace the journey, trust your instincts, and make your way to the Car Parks office. Your adventure continues, and with each step, you become more adept at navigating your new academic home.
 
 Ready to take on the challenge? Let’s go!
+{{< image src="../images/campus-quest-start.png" alt="Responsive image" width="60%" height="auto" >}}
 {{< div-end >}}
-{{< div-center >}}{{< button url="../explorer-2-quest" text="ENTER" >}}{{< div-end >}}
-*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
-
+{{< div-center >}}
+*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___
-
-
 [![image here](../images/lost-icon.png#center)](../lost)
+
+
+{{< div-center >}}{{< button url="../explorer-2-quest" text="ENTER" >}}{{< div-end >}}

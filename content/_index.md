@@ -30,7 +30,7 @@ In the first stage of your quest, you and your team will embark on the Explorerâ
 {{< row-end >}}
 
 {{< div-center >}}
-{{< h2-start >}}Don't forget to get your card stamped by a Student Success Ambassador!{{< h2-end >}}
+{{< h3-start >}}Don't forget to get your card stamped by a Student Success Ambassador!{{< h3-end >}}
 
 {{< div-end >}}
 
