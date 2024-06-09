@@ -6,7 +6,7 @@ draft = false
 +++
 ![image here](../images/explorer-2.png#center)
 
-![image here](../images/trail-1.png#center)
+![image here](../images/ticket-maze.png#center)
 
 {{< div-justify >}}
 This quest will lead you to the ***Car Parks office***, a crucial waypoint for anyone planning to navigate the ins and outs of campus parking. This is where you’ll gather essential information on parking permits, rules, and the best spots to park. Along the way, pay close attention to the signs and landmarks; your directional skills will be put to the test.

@@ -28,15 +28,15 @@ On your journey around the campus, keep an eye out for green treasure boxes. The
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-1-quest/</guid>
       <description>Welcome to Derry/Londonderry&amp;rsquo;s campus reception! You are now in the Martha Magee building, commonly referred to as MD, and affectionately known by students as &amp;lsquo;Hogwarts&amp;rsquo;.
-Your quest is to obtain a campus map. This map will reveal the university&amp;rsquo;s layout, guiding you through its various paths and buildings. Once you have completed your mission, present your campus map and team selfie to the nearest Student Success Ambassador.
-To commemorate the beginning of your university journey, ask a passing student to take a photo of your team outside &amp;lsquo;Hogwarts&amp;rsquo;.</description>
+Your quest is to obtain a map of the campus. This map will reveal the university&amp;rsquo;s layout, guiding you through its various paths and buildings. Once you have completed your mission, present your campus map to the nearest Student Success Ambassador.
+To commemorate the beginning of your university journey, have a fellow student take a photo of your team outside &amp;lsquo;Hogwarts&amp;rsquo;.</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-1/</guid>
-      <description>Welcome to your first university adventure! Your mission is to navigate your way to the Campus reception. This journey is not just a walk; it&amp;rsquo;s a discovery of the heart of your new academic home. Engage with the vibrant campus community, build connections, and immerse yourself in the university atmosphere. Ready your team and step forth with curiosity—your exciting journey begins now. Welcome to your new academic home! ENTERReturn to the Explorer&#39;s Trail.</description>
+      <description>Welcome to your first university adventure! Your mission is to navigate your way to the Campus reception. This journey is not just a walk; it&amp;rsquo;s a discovery of the heart of your new academic home. Engage with the vibrant campus community, build connections, and immerse yourself in the university atmosphere. Ready your team and step forth with curiosity—your exciting journey begins now. Welcome to your new academic home! TestReturn to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
@@ -44,7 +44,7 @@ To commemorate the beginning of your university journey, ask a passing student t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-2-quest/</guid>
       <description>You have found the hole in the wall. Easy to miss, but essential when you need to sort out a parking dilema!
-Your quest is to take a look at the UU Car Parking webpages and work out how much 6 hours parking will cost a student. Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student.</description>
+Your quest is to take a look at the UU Car Parking webpages and work out how much 6 hours parking will cost a student. **Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student.</description>
     </item>
     <item>
       <title></title>
@@ -56,24 +56,51 @@ Whether you&amp;rsquo;re a seasoned driver or new to campus, mastering the art o
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/uu-campus-quest/explorer-3-quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-3-quest/</guid>
+      <description>mindful journey
+bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Success Ambassador! </description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-3/</guid>
-      <description>put narrative text here</description>
+      <description>quest 3
+Ready to take on the challenge? Let’s go! TestReturn to the Explorer&#39;s Trail</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/explorer-4-quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-4-quest/</guid>
+      <description>admin adventure
+bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Success Ambassador! </description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-4/</guid>
-      <description>put narrative text here</description>
+      <description>quest 4
+Ready to take on the challenge? Let’s go! TestReturn to the Explorer&#39;s Trail</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/explorer-5-quest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-5-quest/</guid>
+      <description>archive
+bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Success Ambassador! </description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-5/</guid>
-      <description>put narrative text here</description>
+      <description>quest 5
+Ready to take on the challenge? Let’s go! TestReturn to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
