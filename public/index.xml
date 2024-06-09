@@ -155,10 +155,24 @@ Test</description>
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/uu-campus-quest/puzzle-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/puzzle-1/</guid>
+      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. ___</description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/uu-campus-quest/team-odyssey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/team-odyssey/</guid>
       <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/treasure-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/treasure-1/</guid>
+      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. ___</description>
     </item>
   </channel>
 </rss>

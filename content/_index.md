@@ -7,6 +7,7 @@ draft = false
 
 
 ![image here](images/header.png#center)
+{{< number_form >}}
 
 {{< div-center >}} {{< h1-start >}} Welcome to Campus Quest {{< h1-end >}} {{< div-end >}}
 
