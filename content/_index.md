@@ -36,8 +36,9 @@ In the first stage of your quest, you and your team will embark on the Explorerâ
 
 {{< div-center >}}
 ![image here](images/stamp-card.png#center)
-*Stamper Card*
 {{< div-end >}}
+
+
 {{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="explorers-trail" text="Start Your Journey Here!" >}}{{< div-end >}}
 ___
