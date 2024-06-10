@@ -12,7 +12,7 @@
       <link>http://localhost:1313/uu-campus-quest/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/about/</guid>
-      <description>Campus Quest was designed and created by Dr Thérèse Charles who is a lecturer in Game Design and Development, based on the Derry~Londonderry campus. Credits: AI generated images from DreamStudio.aiAll other images created using Canva.comSite hosted on GitHub Pagesusing the Hugoframework.</description>
+      <description>Campus Quest was designed and created by Dr Thérèse Charles who is a lecturer in Game Design and Development, based on the Derry~Londonderry campus. Credits: AI generated images from DreamStudio.aiCampus Map: ulster.ac.uk/maps/All other images created using Canva.comSite hosted on GitHub Pagesusing the Hugoframework.</description>
     </item>
     <item>
       <title></title>
@@ -27,7 +27,7 @@ Number of Faculties:Number of Schools in your Faculty:What is your degree code
       <link>http://localhost:1313/uu-campus-quest/easter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/easter/</guid>
-      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. ___</description>
+      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. </description>
     </item>
     <item>
       <title></title>
@@ -117,7 +117,7 @@ Test</description>
       <link>http://localhost:1313/uu-campus-quest/explorers-trail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
-      <description>Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! Look out for Easter eggs hidden in treasure chests at some of the locations. If you crack the lock, prizes await! </description>
+      <description>First things first, bookmark this page. Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! Look out for hidden treasure chests at some of the locations. If you crack the lock, prizes await! </description>
     </item>
     <item>
       <title></title>

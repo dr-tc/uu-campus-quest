@@ -8,7 +8,7 @@ draft = false
 ![image here](../images/explorer.png#center)
 {{< row >}}
 {{< column >}}
-{{< div-container-start>}} {{< h3-start >}}Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! {{< h3-end>}}{{< div-container-end>}}{{< column-end >}}
+{{< div-container-start>}} {{< h3-start >}}First things first, bookmark this page. {{< break-start >}}{{< break-end >}}Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! {{< h3-end>}}{{< div-container-end>}}{{< column-end >}}
 {{< column >}}{{< div-container-start>}} 
 ![image here](../images/dice.png#center){{< div-container-end>}}
 
@@ -24,7 +24,7 @@ draft = false
 
 ___
 
-### Look out for Easter eggs hidden in treasure chests at some of the locations. If you crack the lock, prizes await!
+### Look out for hidden treasure chests at some of the locations. If you crack the lock, prizes await!
  [![image here](../images/chest-3.png#center)](../easter)
 
 ___

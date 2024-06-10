@@ -13,6 +13,7 @@ draft = false
 {{< column >}}{{< div-container-start>}} 
 ![image here](../images/chest-3.png#center){{< div-container-end>}}
 {{< column-end >}}
-{{< row-end >}}___
+{{< row-end >}}
+___
 
 [![image here](../images/lost-icon.png#center)](../lost)
