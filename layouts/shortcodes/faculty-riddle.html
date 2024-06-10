@@ -15,7 +15,7 @@
 </br>
 
 <div id="result" style="display:none;">
-    <p>Congratulations! Your special code is: <span id="special-code"></span></p>
+    <p>Congratulations! The combination is: <span id="special-code"></span></p>
 </div>
 
 <script>
@@ -31,10 +31,10 @@ document.getElementById('validateButton').addEventListener('click', function(eve
     var correctNum3 = 22;
 
     if (num1 === correctNum1 && num2 === correctNum2 && num3 === correctNum3) {
-        document.getElementById('special-code').innerText = 'XYZ123';
+        document.getElementById('special-code').innerText = '143';
         document.getElementById('result').style.display = 'block';
     } else {
-        alert('Incorrect numbers. Please try again.');
+        alert('Incorrect. Please try again.');
     }
 });
 </script>
