@@ -77,43 +77,6 @@
 </header>
 <main class="main"> 
 <div class="post-content"><p><img loading="lazy" src="images/header.png#center" alt="image here"  />
-
-<div id="form-container">
-    <label for="number1">Enter first number:</label>
-    <input type="text" id="number1" name="number1">
-    <br>
-    <label for="number2">Enter second number:</label>
-    <input type="text" id="number2" name="number2">
-    <br>
-    <label for="number3">Enter third number:</label>
-    <input type="text" id="number3" name="number3">
-    <br>
-    <button id="validateButton">Submit</button>
-</div>
-<div id="result" style="display:none;">
-    <p>Congratulations! Your special code is: <span id="special-code"></span></p>
-</div>
-
-<script>
-document.getElementById('validateButton').addEventListener('click', function(event) {
-    event.preventDefault();
-    
-    var num1 = Number(document.getElementById('number1').value);
-    var num2 = Number(document.getElementById('number2').value);
-    var num3 = Number(document.getElementById('number3').value);
-
-    var correctNum1 = 5;
-    var correctNum2 = 10;
-    var correctNum3 = 15;
-
-    if (num1 === correctNum1 && num2 === correctNum2 && num3 === correctNum3) {
-        document.getElementById('special-code').innerText = 'XYZ123';
-        document.getElementById('result').style.display = 'block';
-    } else {
-        alert('Incorrect numbers. Please try again.');
-    }
-});
-</script>
 </p>
 <p><div style="text-align: center"> <h1> Welcome to Campus Quest </h1> </div></p>
 <p><div style="text-align: justify">

@@ -16,6 +16,15 @@
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/uu-campus-quest/chest-1-brz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/chest-1-brz/</guid>
+      <description>Puzzle Name Take a look at the university structure below and work out the answer to the riddle.
+At Ulster University, where faculties stand tall, Find the one where game designers heed the call. Count the schools within, where knowledge is a treasure, In this list of learning, where do we measure? Solve this riddle with a keen mind&amp;rsquo;s eye, In the order of schools, where do we lie?
+Number of Faculties:Number of Schools in your Faculty:Sum of all Schools at Ulster:SubmitCongratulations!</description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/uu-campus-quest/easter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/easter/</guid>
@@ -152,13 +161,6 @@ Test</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/odyssey-5/</guid>
       <description>put narrative text here</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/uu-campus-quest/puzzle-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/uu-campus-quest/puzzle-1/</guid>
-      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. ___</description>
     </item>
     <item>
       <title></title>

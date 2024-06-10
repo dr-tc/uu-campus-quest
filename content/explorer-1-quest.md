@@ -36,5 +36,6 @@ ___
 
 ___
 
-
 [![image here](../images/lost-icon.png#center)](../lost)
+
+*{{< styled-link href="../chest-1-brz" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}

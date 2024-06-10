@@ -1,15 +1,19 @@
+
+{{ partial "form_styles.html" }}
 <div id="form-container">
-    <label for="number1">Enter first number:</label>
+    <label for="number1">Number of Faculties:</label>
     <input type="text" id="number1" name="number1">
     <br>
-    <label for="number2">Enter second number:</label>
+    <label for="number2">Number of Schools in your Faculty:</label>
     <input type="text" id="number2" name="number2">
     <br>
-    <label for="number3">Enter third number:</label>
+    <label for="number3">Sum of all Schools at Ulster:</label>
     <input type="text" id="number3" name="number3">
     <br>
     <button id="validateButton">Submit</button>
 </div>
+</br>
+
 <div id="result" style="display:none;">
     <p>Congratulations! Your special code is: <span id="special-code"></span></p>
 </div>
@@ -22,9 +26,9 @@ document.getElementById('validateButton').addEventListener('click', function(eve
     var num2 = Number(document.getElementById('number2').value);
     var num3 = Number(document.getElementById('number3').value);
 
-    var correctNum1 = 5;
-    var correctNum2 = 10;
-    var correctNum3 = 15;
+    var correctNum1 = 4;
+    var correctNum2 = 6;
+    var correctNum3 = 22;
 
     if (num1 === correctNum1 && num2 === correctNum2 && num3 === correctNum3) {
         document.getElementById('special-code').innerText = 'XYZ123';

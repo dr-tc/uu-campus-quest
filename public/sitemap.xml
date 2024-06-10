@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/uu-campus-quest/chest-1-brz/</loc>
+  </url><url>
     <loc>http://localhost:1313/uu-campus-quest/easter/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/explorer-1-quest/</loc>
@@ -41,8 +43,6 @@
     <loc>http://localhost:1313/uu-campus-quest/odyssey-4/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/odyssey-5/</loc>
-  </url><url>
-    <loc>http://localhost:1313/uu-campus-quest/puzzle-1/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/team-odyssey/</loc>
   </url><url>
