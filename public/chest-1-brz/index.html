@@ -9,7 +9,7 @@
 <title>UU Campus Quest</title>
 <meta name="keywords" content="">
 <meta name="description" content="Faculty Finder In a diagram below, you&rsquo;ll see a grand educational tree, Find the faculties, how many can there be? In your chosen branch, how many schools reside? Count them all, then look far and wide. Sum up each school in every faculty, And reveal the total count for all to see!
-Number of Faculties:Number of Schools in your Faculty:Sum of all Schools at Ulster:SubmitCongratulations! The combination is: ">
+Number of Faculties:Number of Schools in your Faculty:What is your degree code:SubmitCongratulations! The combination is: ">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/uu-campus-quest/chest-1-brz/">
 <link crossorigin="anonymous" href="/uu-campus-quest/assets/css/stylesheet.cf1481651c58b2f4693d3bc1df78d33f09d5e2fa8b2db7b3b9c4414567faded1.css" integrity="sha256-zxSBZRxYsvRpPTvB33jTPwnV4vqLLbezucRBRWf63tE=" rel="preload stylesheet" as="style">
@@ -153,7 +153,7 @@ And reveal the total count for all to see!<br></br>
     <label for="number2">Number of Schools in your Faculty:</label>
     <input type="text" id="number2" name="number2">
     <br>
-    <label for="number3">Sum of all Schools at Ulster:</label>
+    <label for="number3">What is your degree code:</label>
     <input type="text" id="number3" name="number3">
     <br>
     <button id="validateButton">Submit</button>
@@ -174,7 +174,7 @@ document.getElementById('validateButton').addEventListener('click', function(eve
 
     var correctNum1 = 4;
     var correctNum2 = 6;
-    var correctNum3 = 22;
+    var correctNum3 = 8722;
 
     if (num1 === correctNum1 && num2 === correctNum2 && num3 === correctNum3) {
         document.getElementById('special-code').innerText = '143';
