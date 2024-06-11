@@ -9,4 +9,5 @@ put narrative text here
 
 ![image here](../images/bonus.png#center)
 
-{{< div-center >}}Name Tennis{{< /styled-link >}}*{{< div-end >}}
+{{< div-center >}}Name Tennis test{{< /styled-link >}}*{{< div-end >}}
+
