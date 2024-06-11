@@ -1,41 +1,72 @@
 <div class="audio-button-container">
-  <button id="play-button" class="play-audio-button" 
-          data-play-text="{{ .Get 1 }}" 
-          data-pause-text="{{ .Get 2 }}">Play Audio</button>
+  <button id="play-button-{{ .Get 3 }}" class="play-audio-button"
+          data-audio-id="audio-element-{{ .Get 3 }}"
+          data-play-text="{{ .Get 1 | default "Play Audio" }}"
+          data-pause-text="{{ .Get 2 | default "Pause Audio" }}">Play Audio</button>
 </div>
 
-<audio id="audio-element" src="{{ .Get 0 }}" type="audio/mpeg"></audio>
+<audio id="audio-element-{{ .Get 3 }}" src="{{ .Get 0 }}" type="audio/mpeg"></audio>
 
 <script>
-  document.getElementById('play-button').addEventListener('click', function() {
-    var audio = document.getElementById('audio-element');
-    var playText = this.getAttribute('data-play-text') || 'Play Audio';
-    var pauseText = this.getAttribute('data-pause-text') || 'Pause Audio';
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get references to button and audio element
+    var button = document.getElementById('play-button-{{ .Get 3 }}');
+    var audio = document.getElementById(button.getAttribute('data-audio-id'));
 
-    if (audio.paused) {
-      audio.play();
-      this.textContent = pauseText;
-    } else {
-      audio.pause();
-      this.textContent = playText;
+    // Get play and pause text from the data attributes
+    var playText = button.getAttribute('data-play-text') || 'Play Audio';
+    var pauseText = button.getAttribute('data-pause-text') || 'Pause Audio';
+
+    // Function to pause and reset all other audios
+    function pauseAllAudios() {
+      var audios = document.querySelectorAll('audio');
+      audios.forEach(function(aud) {
+        if (aud !== audio) {
+          aud.pause();
+          aud.currentTime = 0; // Reset audio to start
+          // Find the corresponding button and set text to playText
+          var btn = document.querySelector('button[data-audio-id="' + aud.id + '"]');
+          if (btn) {
+            btn.textContent = btn.getAttribute('data-play-text') || 'Play Audio';
+          }
+        }
+      });
     }
+
+    // Event listener for the button
+    button.addEventListener('click', function() {
+      if (audio.paused) {
+        pauseAllAudios(); // Pause and reset other audios
+        audio.play();
+        button.textContent = pauseText;
+      } else {
+        audio.pause();
+        audio.currentTime = 0; // Reset this audio to start
+        button.textContent = playText;
+      }
+    });
+
+    // Reset button text when audio ends
+    audio.addEventListener('ended', function() {
+      button.textContent = playText;
+    });
   });
 </script>
 
 <style>
   .audio-button-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: auto;
     text-align: center;
     margin: 20px auto;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
 
   .play-audio-button {
-    background-color: #007bff;
+    background-color: #009FDF;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -46,5 +77,7 @@
 
   .play-audio-button:hover {
     background-color: #0056b3;
+
+
   }
 </style>

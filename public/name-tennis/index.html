@@ -8,8 +8,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>UU Campus Quest</title>
 <meta name="keywords" content="">
-<meta name="description" content="Easter Eggs!
-Game Tennis Play AudioPlay AudioPlay AudioPlay Audio">
+<meta name="description" content="Name Tennis
+Countdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Audio">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/uu-campus-quest/name-tennis/">
 <link crossorigin="anonymous" href="/uu-campus-quest/assets/css/stylesheet.cf1481651c58b2f4693d3bc1df78d33f09d5e2fa8b2db7b3b9c4414567faded1.css" integrity="sha256-zxSBZRxYsvRpPTvB33jTPwnV4vqLLbezucRBRWf63tE=" rel="preload stylesheet" as="style">
@@ -86,46 +86,77 @@ Game Tennis Play AudioPlay AudioPlay AudioPlay Audio">
 
 </div>
   </header> 
-  <div class="post-content"><p><div style="text-align: center"><h1>Easter Eggs!</h1></div></p>
-<h2 id="game-tennis">Game Tennis<a hidden class="anchor" aria-hidden="true" href="#game-tennis">#</a></h2>
+  <div class="post-content"><p><div style="text-align: center"><h1>Name Tennis</h1></div></p>
+<p><div style="text-align: center"><h3>Countdown</h3></div>
 <div class="audio-button-container">
-  <button id="play-button" class="play-audio-button" 
-          data-play-text="Countdown" 
-          data-pause-text="Stop Countdown">Play Audio</button>
+  <button id="play-button-audio1" class="play-audio-button"
+          data-audio-id="audio-element-audio1"
+          data-play-text="Countdown"
+          data-pause-text="Pause Countdown">Play Audio</button>
 </div>
 
-<audio id="audio-element" src="../audio/countdown.mp3" type="audio/mpeg"></audio>
+<audio id="audio-element-audio1" src="../audio/countdown.mp3" type="audio/mpeg"></audio>
 
 <script>
-  document.getElementById('play-button').addEventListener('click', function() {
-    var audio = document.getElementById('audio-element');
-    var playText = this.getAttribute('data-play-text') || 'Play Audio';
-    var pauseText = this.getAttribute('data-pause-text') || 'Pause Audio';
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var button = document.getElementById('play-button-audio1');
+    var audio = document.getElementById(button.getAttribute('data-audio-id'));
 
-    if (audio.paused) {
-      audio.play();
-      this.textContent = pauseText;
-    } else {
-      audio.pause();
-      this.textContent = playText;
+    
+    var playText = button.getAttribute('data-play-text') || 'Play Audio';
+    var pauseText = button.getAttribute('data-pause-text') || 'Pause Audio';
+
+    
+    function pauseAllAudios() {
+      var audios = document.querySelectorAll('audio');
+      audios.forEach(function(aud) {
+        if (aud !== audio) {
+          aud.pause();
+          aud.currentTime = 0; 
+          
+          var btn = document.querySelector('button[data-audio-id="' + aud.id + '"]');
+          if (btn) {
+            btn.textContent = btn.getAttribute('data-play-text') || 'Play Audio';
+          }
+        }
+      });
     }
+
+    
+    button.addEventListener('click', function() {
+      if (audio.paused) {
+        pauseAllAudios(); 
+        audio.play();
+        button.textContent = pauseText;
+      } else {
+        audio.pause();
+        audio.currentTime = 0; 
+        button.textContent = playText;
+      }
+    });
+
+    
+    audio.addEventListener('ended', function() {
+      button.textContent = playText;
+    });
   });
 </script>
 
 <style>
   .audio-button-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: auto;
     text-align: center;
     margin: 20px auto;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
 
   .play-audio-button {
-    background-color: #007bff;
+    background-color: #009FDF;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -136,48 +167,265 @@ Game Tennis Play AudioPlay AudioPlay AudioPlay Audio">
 
   .play-audio-button:hover {
     background-color: #0056b3;
+
+
   }
 </style>
-
-<p><br></br></p>
+</p>
+<p><div class="row">
+<div class="column">
+<div style="text-align: center">
+<h3>Success </h3>
+</div>
+<div class="container">
 <div class="audio-button-container">
-  <button id="play-button" class="play-audio-button" 
-          data-play-text="Game Over" 
-          data-pause-text="Stop Game Over">Play Audio</button>
+              <button id="play-button-audio2" class="play-audio-button"
+                      data-audio-id="audio-element-audio2"
+                      data-play-text="Success"
+                      data-pause-text="Pause Success">Play Audio</button>
+            </div>
+            
+            <audio id="audio-element-audio2" src="../audio/success.mp3" type="audio/mpeg"></audio>
+            
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                
+                var button = document.getElementById('play-button-audio2');
+                var audio = document.getElementById(button.getAttribute('data-audio-id'));
+            
+                
+                var playText = button.getAttribute('data-play-text') || 'Play Audio';
+                var pauseText = button.getAttribute('data-pause-text') || 'Pause Audio';
+            
+                
+                function pauseAllAudios() {
+                  var audios = document.querySelectorAll('audio');
+                  audios.forEach(function(aud) {
+                    if (aud !== audio) {
+                      aud.pause();
+                      aud.currentTime = 0; 
+                      
+                      var btn = document.querySelector('button[data-audio-id="' + aud.id + '"]');
+                      if (btn) {
+                        btn.textContent = btn.getAttribute('data-play-text') || 'Play Audio';
+                      }
+                    }
+                  });
+                }
+            
+                
+                button.addEventListener('click', function() {
+                  if (audio.paused) {
+                    pauseAllAudios(); 
+                    audio.play();
+                    button.textContent = pauseText;
+                  } else {
+                    audio.pause();
+                    audio.currentTime = 0; 
+                    button.textContent = playText;
+                  }
+                });
+            
+                
+                audio.addEventListener('ended', function() {
+                  button.textContent = playText;
+                });
+              });
+            </script>
+            
+            <style>
+              .audio-button-container {
+                background-color: #333;
+                padding: 20px;
+                border-radius: 10px;
+                max-width: 200px;
+                margin: auto;
+                text-align: center;
+                margin: 20px auto;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+              }
+            
+              .play-audio-button {
+                background-color: #009FDF;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 5px;
+              }
+            
+              .play-audio-button:hover {
+                background-color: #0056b3;
+            
+            
+              }
+            </style>
+
+</div>
+</div>
+<div class="column">
+<div style="text-align: center">
+<h3>Game Over </h3>
+</div>
+<div class="container">
+<div class="audio-button-container">
+              <button id="play-button-audio2" class="play-audio-button"
+                      data-audio-id="audio-element-audio2"
+                      data-play-text="Game Over"
+                      data-pause-text="Pause Game Over">Play Audio</button>
+            </div>
+            
+            <audio id="audio-element-audio2" src="../audio/game-over.mp3" type="audio/mpeg"></audio>
+            
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                
+                var button = document.getElementById('play-button-audio2');
+                var audio = document.getElementById(button.getAttribute('data-audio-id'));
+            
+                
+                var playText = button.getAttribute('data-play-text') || 'Play Audio';
+                var pauseText = button.getAttribute('data-pause-text') || 'Pause Audio';
+            
+                
+                function pauseAllAudios() {
+                  var audios = document.querySelectorAll('audio');
+                  audios.forEach(function(aud) {
+                    if (aud !== audio) {
+                      aud.pause();
+                      aud.currentTime = 0; 
+                      
+                      var btn = document.querySelector('button[data-audio-id="' + aud.id + '"]');
+                      if (btn) {
+                        btn.textContent = btn.getAttribute('data-play-text') || 'Play Audio';
+                      }
+                    }
+                  });
+                }
+            
+                
+                button.addEventListener('click', function() {
+                  if (audio.paused) {
+                    pauseAllAudios(); 
+                    audio.play();
+                    button.textContent = pauseText;
+                  } else {
+                    audio.pause();
+                    audio.currentTime = 0; 
+                    button.textContent = playText;
+                  }
+                });
+            
+                
+                audio.addEventListener('ended', function() {
+                  button.textContent = playText;
+                });
+              });
+            </script>
+            
+            <style>
+              .audio-button-container {
+                background-color: #333;
+                padding: 20px;
+                border-radius: 10px;
+                max-width: 200px;
+                margin: auto;
+                text-align: center;
+                margin: 20px auto;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+              }
+            
+              .play-audio-button {
+                background-color: #009FDF;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 5px;
+              }
+            
+              .play-audio-button:hover {
+                background-color: #0056b3;
+            
+            
+              }
+            </style>
+
+</div>
+</div>
+</div></p>
+<p><div style="text-align: center"><h3>Next Level</h3></div>
+<div class="audio-button-container">
+  <button id="play-button-audio4" class="play-audio-button"
+          data-audio-id="audio-element-audio4"
+          data-play-text="Next Level"
+          data-pause-text="Pause Next Level">Play Audio</button>
 </div>
 
-<audio id="audio-element" src="../audio/game-over.mp3" type="audio/mpeg"></audio>
+<audio id="audio-element-audio4" src="../audio/next-level.mp3" type="audio/mpeg"></audio>
 
 <script>
-  document.getElementById('play-button').addEventListener('click', function() {
-    var audio = document.getElementById('audio-element');
-    var playText = this.getAttribute('data-play-text') || 'Play Audio';
-    var pauseText = this.getAttribute('data-pause-text') || 'Pause Audio';
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var button = document.getElementById('play-button-audio4');
+    var audio = document.getElementById(button.getAttribute('data-audio-id'));
 
-    if (audio.paused) {
-      audio.play();
-      this.textContent = pauseText;
-    } else {
-      audio.pause();
-      this.textContent = playText;
+    
+    var playText = button.getAttribute('data-play-text') || 'Play Audio';
+    var pauseText = button.getAttribute('data-pause-text') || 'Pause Audio';
+
+    
+    function pauseAllAudios() {
+      var audios = document.querySelectorAll('audio');
+      audios.forEach(function(aud) {
+        if (aud !== audio) {
+          aud.pause();
+          aud.currentTime = 0; 
+          
+          var btn = document.querySelector('button[data-audio-id="' + aud.id + '"]');
+          if (btn) {
+            btn.textContent = btn.getAttribute('data-play-text') || 'Play Audio';
+          }
+        }
+      });
     }
+
+    
+    button.addEventListener('click', function() {
+      if (audio.paused) {
+        pauseAllAudios(); 
+        audio.play();
+        button.textContent = pauseText;
+      } else {
+        audio.pause();
+        audio.currentTime = 0; 
+        button.textContent = playText;
+      }
+    });
+
+    
+    audio.addEventListener('ended', function() {
+      button.textContent = playText;
+    });
   });
 </script>
 
 <style>
   .audio-button-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: auto;
     text-align: center;
     margin: 20px auto;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
 
   .play-audio-button {
-    background-color: #007bff;
+    background-color: #009FDF;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -188,113 +436,11 @@ Game Tennis Play AudioPlay AudioPlay AudioPlay Audio">
 
   .play-audio-button:hover {
     background-color: #0056b3;
+
+
   }
 </style>
-
-<p><br></br></p>
-<div class="audio-button-container">
-  <button id="play-button" class="play-audio-button" 
-          data-play-text="Winner" 
-          data-pause-text="Stop Winner">Play Audio</button>
-</div>
-
-<audio id="audio-element" src="../audio/winner.mp3" type="audio/mpeg"></audio>
-
-<script>
-  document.getElementById('play-button').addEventListener('click', function() {
-    var audio = document.getElementById('audio-element');
-    var playText = this.getAttribute('data-play-text') || 'Play Audio';
-    var pauseText = this.getAttribute('data-pause-text') || 'Pause Audio';
-
-    if (audio.paused) {
-      audio.play();
-      this.textContent = pauseText;
-    } else {
-      audio.pause();
-      this.textContent = playText;
-    }
-  });
-</script>
-
-<style>
-  .audio-button-container {
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
-  }
-
-  .play-audio-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .play-audio-button:hover {
-    background-color: #0056b3;
-  }
-</style>
-
-<p><br></br></p>
-<div class="audio-button-container">
-  <button id="play-button" class="play-audio-button" 
-          data-play-text="Next Level" 
-          data-pause-text="Stop Next Level">Play Audio</button>
-</div>
-
-<audio id="audio-element" src="../audio/next-level.mp3" type="audio/mpeg"></audio>
-
-<script>
-  document.getElementById('play-button').addEventListener('click', function() {
-    var audio = document.getElementById('audio-element');
-    var playText = this.getAttribute('data-play-text') || 'Play Audio';
-    var pauseText = this.getAttribute('data-pause-text') || 'Pause Audio';
-
-    if (audio.paused) {
-      audio.play();
-      this.textContent = pauseText;
-    } else {
-      audio.pause();
-      this.textContent = playText;
-    }
-  });
-</script>
-
-<style>
-  .audio-button-container {
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
-  }
-
-  .play-audio-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .play-audio-button:hover {
-    background-color: #0056b3;
-  }
-</style>
-
+</p>
 
 
   </div>
