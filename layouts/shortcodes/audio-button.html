@@ -1,0 +1,50 @@
+<div class="audio-button-container">
+  <button id="play-button" class="play-audio-button" 
+          data-play-text="{{ .Get 1 }}" 
+          data-pause-text="{{ .Get 2 }}">Play Audio</button>
+</div>
+
+<audio id="audio-element" src="{{ .Get 0 }}" type="audio/mpeg"></audio>
+
+<script>
+  document.getElementById('play-button').addEventListener('click', function() {
+    var audio = document.getElementById('audio-element');
+    var playText = this.getAttribute('data-play-text') || 'Play Audio';
+    var pauseText = this.getAttribute('data-pause-text') || 'Pause Audio';
+
+    if (audio.paused) {
+      audio.play();
+      this.textContent = pauseText;
+    } else {
+      audio.pause();
+      this.textContent = playText;
+    }
+  });
+</script>
+
+<style>
+  .audio-button-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+  }
+
+  .play-audio-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .play-audio-button:hover {
+    background-color: #0056b3;
+  }
+</style>

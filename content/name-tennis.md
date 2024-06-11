@@ -8,13 +8,20 @@ draft = false
 
 
 ## Game Tennis
-Countdown {{< break-start >}}{{< break-end >}}
-{{< audio "../audio/countdown.mp3" >}}
+
+
+
+{{< audio-button "../audio/countdown.mp3" "Countdown" "Stop Countdown" >}}
+
 {{< break-start >}}{{< break-end >}}
-Failure{{< break-start >}}{{< break-end >}}
-{{< audio "../audio/game-over.mp3" >}}{{< break-start >}}{{< break-end >}}
-Success{{< break-start >}}{{< break-end >}}
-{{< audio "../audio/winner.mp3" >}}
+
+{{< audio-button "../audio/game-over.mp3" "Game Over" "Stop Game Over" >}}
+
 {{< break-start >}}{{< break-end >}}
-Next Level{{< break-start >}}{{< break-end >}}
-{{< audio "../audio/next-level.mp3" >}}
+
+{{< audio-button "../audio/winner.mp3" "Winner" "Stop Winner" >}}
+
+{{< break-start >}}{{< break-end >}}
+
+{{< audio-button "../audio/next-level.mp3" "Next Level" "Stop Next Level" >}}
+
