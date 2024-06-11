@@ -23,7 +23,7 @@ draft = false
             {{< h3-start >}}Game Over {{< h3-end>}}
         {{< div-container-end >}}
         {{< div-container-start >}}
-            {{< audio-button "../audio/game-over.mp3" "Game Over" "Pause Game Over" "audio2" >}}
+            {{< audio-button "../audio/game-over.mp3" "Game Over" "Pause Game Over" "audio3" >}}
         {{< div-container-end>}}
     {{< column-end >}}
 {{< row-end >}}    
