@@ -11,3 +11,5 @@ put narrative text here
 
 
 
+{{< div-center >}}
+*{{< styled-link href="../name-tennis" >}}Test Name Tennis{{< /styled-link >}}*{{< div-end >}}
