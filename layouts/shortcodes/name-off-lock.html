@@ -1,0 +1,25 @@
+{{ partial "form_styles.html" }}
+    
+
+    <div id="form-container">
+        <label for="password">Enter the secret password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <button id="validateButton">Submit</button>
+    </div>
+
+    <script>
+        document.getElementById('validateButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            
+            const enteredPassword = document.getElementById('password').value;
+            const secretPassword = 'flatland'; // Replace with your actual secret password
+            
+            if (enteredPassword === secretPassword) {
+                window.location.href = '../name-off'; // Replace with the URL to redirect to
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        });
+    </script>
+

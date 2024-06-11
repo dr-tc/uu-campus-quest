@@ -128,11 +128,12 @@ Test</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/uu-campus-quest/name-tennis/</link>
+      <link>http://localhost:1313/uu-campus-quest/name-off/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/uu-campus-quest/name-tennis/</guid>
-      <description>Name Tennis
-Countdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Audio</description>
+      <guid>http://localhost:1313/uu-campus-quest/name-off/</guid>
+      <description>Name Off!
+&lt;!DOCTYPE html&gt;Enter number of teams:Start GameWho lost? Enter the losing team number:
+Submit LossCountdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Audio</description>
     </item>
     <item>
       <title></title>
@@ -165,9 +166,8 @@ The aim is for each participant to guess the character’s name on their sticky 
       <link>http://localhost:1313/uu-campus-quest/odyssey-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/odyssey-4/</guid>
-      <description>put narrative text here
-this link should work
-Test Name Tennis</description>
+      <description>Challenge Time! Reflect on your experience from Quest 1 and discuss among your team to identify who has the sharpest memory. Nominate that person to be your champion in the Name-Off quest!
+Minutes:Seconds:Start Countdown00:00Enter the secret password:Submit</description>
     </item>
     <item>
       <title></title>
@@ -182,7 +182,8 @@ Return to Team Odyssey</description>
       <link>http://localhost:1313/uu-campus-quest/team-odyssey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/team-odyssey/</guid>
-      <description>First things first, bookmark this page. Roll the dice to choose a quest. Once all 5 quests have been completed, let one of the Student Success Ambassadors know. </description>
+      <description>Complete quests 1 through to 3,
+then get ready for a team face-off!</description>
     </item>
     <item>
       <title></title>

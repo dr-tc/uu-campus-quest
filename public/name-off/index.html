@@ -9,9 +9,10 @@
 <title>UU Campus Quest</title>
 <meta name="keywords" content="">
 <meta name="description" content="Name Off!
-Countdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Audio">
+&lt;!DOCTYPE html&gt;Enter number of teams:Start GameWho lost? Enter the losing team number:
+Submit LossCountdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Audio">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/uu-campus-quest/name-tennis/">
+<link rel="canonical" href="http://localhost:1313/uu-campus-quest/name-off/">
 <link crossorigin="anonymous" href="/uu-campus-quest/assets/css/stylesheet.cf1481651c58b2f4693d3bc1df78d33f09d5e2fa8b2db7b3b9c4414567faded1.css" integrity="sha256-zxSBZRxYsvRpPTvB33jTPwnV4vqLLbezucRBRWf63tE=" rel="preload stylesheet" as="style">
 
 
@@ -23,7 +24,7 @@ Countdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Aud
 <link rel="mask-icon" href="http://localhost:1313/uu-campus-quest/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/uu-campus-quest/name-tennis/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/uu-campus-quest/name-off/">
 <noscript>
     <style>
         #theme-toggle,
@@ -89,7 +90,184 @@ Countdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Aud
   <div class="post-content"><p><img loading="lazy" src="../images/name-off.png#center" alt="image here"  />
 </p>
 <p><div style="text-align: center"><h1>Name Off!</h1></div></p>
-<p>
+<p><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+    
+        .container {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: center;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        #match-result, #scores {
+            text-align: center;
+        }
+        select, option {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="number"] {
+            padding: 10px;
+            color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+    <div class="container">
+        <div class="input-group">
+            <label for="team-count">Enter number of teams:</label>
+            <input type="number" id="team-count" min="2" max="100">
+            <button class="button" onclick="startGame()">Start Game</button>
+        </div>
+
+        <div id="match-result"></div>
+        <div id="scores"></div>
+        <div id="next-match" style="display: none;">
+            <p>Who lost? Enter the losing team number:</p>
+            <input type="number" id="losing-team" min="1">
+            <button class="button" onclick="processLoss()">Submit Loss</button>
+        </div>
+    </div>
+
+    <script>
+        let teams = [];
+        let currentMatch = [];
+        let remainingTeams = [];
+        let scores = {};
+        let matchHistory = {}; 
+        let losingTeam = null; 
+        const WIN_POINTS = 10; 
+        const LOSS_POINTS = -5; 
+        const BONUS_POINTS = 5; 
+
+        function startGame() {
+            const teamCount = parseInt(document.getElementById('team-count').value);
+            if (teamCount < 2) {
+                alert('Please enter at least 2 teams.');
+                return;
+            }
+
+            teams = Array.from({ length: teamCount }, (_, i) => i + 1);
+            remainingTeams = [...teams];
+            scores = {};
+            matchHistory = {};
+            teams.forEach(team => {
+                scores[team] = 0;
+                matchHistory[team] = new Set(); 
+            });
+
+            losingTeam = null; 
+            selectTeamsForMatch();
+            updateScores();
+        }
+
+        function selectTeamsForMatch() {
+            if (remainingTeams.length < 2) {
+                document.getElementById('match-result').innerHTML = `Game over! All teams have played.`;
+                document.getElementById('next-match').style.display = 'none';
+                return;
+            }
+
+            if (losingTeam === null) {
+                
+                let [team1, team2] = getRandomTeams(remainingTeams);
+                currentMatch = [team1, team2];
+            } else {
+                
+                let nextTeam = getNextTeam(losingTeam);
+                currentMatch = [losingTeam, nextTeam];
+            }
+
+            document.getElementById('match-result').innerHTML = `Teams ${currentMatch[0]} and ${currentMatch[1]} are playing.`;
+            document.getElementById('next-match').style.display = 'block';
+        }
+
+        function getRandomTeams(arr) {
+            let shuffled = arr.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, 2);
+        }
+
+        function getNextTeam(losingTeam) {
+            
+            for (let team of remainingTeams) {
+                if (team !== losingTeam && !matchHistory[losingTeam].has(team)) {
+                    return team;
+                }
+            }
+            
+            return remainingTeams.find(team => team !== losingTeam);
+        }
+
+        function processLoss() {
+            const losingTeamInput = parseInt(document.getElementById('losing-team').value);
+            if (!currentMatch.includes(losingTeamInput)) {
+                alert(`Team ${losingTeamInput} is not currently playing.`);
+                return;
+            }
+
+            let winningTeam = currentMatch.find(team => team !== losingTeamInput);
+            
+            scores[winningTeam] += WIN_POINTS;
+            scores[winningTeam] += matchHistory[winningTeam].has(losingTeamInput) ? BONUS_POINTS : 0;
+            scores[losingTeamInput] += LOSS_POINTS;
+
+            matchHistory[losingTeamInput].add(winningTeam); 
+            matchHistory[winningTeam].add(losingTeamInput);
+
+            remainingTeams = remainingTeams.filter(team => team !== winningTeam);
+            losingTeam = losingTeamInput; 
+
+            updateScores();
+            selectTeamsForMatch();
+        }
+
+        function updateScores() {
+            let scoreBoard = '<h3>Scores</h3>';
+            
+            const sortedTeams = Object.keys(scores).sort((a, b) => scores[b] - scores[a]);
+            sortedTeams.forEach(team => {
+                scoreBoard += `Team ${team}: ${scores[team]} points<br>`;
+            });
+            document.getElementById('scores').innerHTML = scoreBoard;
+        }
+    </script>
+
+</html>
+
 <div style="text-align: center"><h3>Countdown</h3></div>
 <div class="audio-button-container">
   <button id="play-button-audio1" class="play-audio-button"

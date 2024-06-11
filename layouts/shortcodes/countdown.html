@@ -1,0 +1,47 @@
+
+
+
+
+<div id="form-container">
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="0" max="59">
+        <label for="seconds">Seconds:</label>
+        <input type="number" id="seconds" min="0" max="59">
+        <br>
+        <button class="button" id="startButton">Start Countdown</button>
+        <div id="timer" class="timer">00:00</div>
+        <audio id="alarm-sound" src="../audio/times-up.mp3" preload="auto"></audio>
+    </div>
+
+    <script>
+        document.getElementById('startButton').addEventListener('click', function() {
+            const minutesInput = parseInt(document.getElementById('minutes').value) || 0;
+            const secondsInput = parseInt(document.getElementById('seconds').value) || 0;
+            let countdownTime = (minutesInput * 60) + secondsInput; // Convert minutes and seconds to total seconds
+            const timerDisplay = document.getElementById('timer');
+            const alarmSound = document.getElementById('alarm-sound');
+
+            function updateDisplay(seconds) {
+                const minutes = Math.floor(seconds / 60);
+                const remainingSeconds = seconds % 60;
+                timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+            }
+
+            // Initialize the display
+            updateDisplay(countdownTime);
+
+            // Start the countdown
+            const countdownInterval = setInterval(function() {
+                countdownTime--;
+
+                if (countdownTime < 0) {
+                    clearInterval(countdownInterval);
+                    timerDisplay.textContent = "Time's up!";
+                    alarmSound.play(); // Play the sound when time is up
+                } else {
+                    updateDisplay(countdownTime);
+                }
+            }, 1000);
+        });
+    </script>
+

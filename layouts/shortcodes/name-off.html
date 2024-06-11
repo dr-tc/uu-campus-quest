@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <style>
+    
+        .container {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: center;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        #match-result, #scores {
+            text-align: center;
+        }
+        select, option {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="number"] {
+            padding: 10px;
+            color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+    <div class="container">
+        <div class="input-group">
+            <label for="team-count">Enter number of teams:</label>
+            <input type="number" id="team-count" min="2" max="100">
+            <button class="button" onclick="startGame()">Start Game</button>
+        </div>
+
+        <div id="match-result"></div>
+        <div id="scores"></div>
+        <div id="next-match" style="display: none;">
+            <p>Who lost? Enter the losing team number:</p>
+            <input type="number" id="losing-team" min="1">
+            <button class="button" onclick="processLoss()">Submit Loss</button>
+        </div>
+    </div>
+
+    <script>
+        let teams = [];
+        let currentMatch = [];
+        let remainingTeams = [];
+        let scores = {};
+        let matchHistory = {}; // Track matches
+        let losingTeam = null; // Track the current losing team
+        const WIN_POINTS = 10; // Points for a win
+        const LOSS_POINTS = -5; // Points deduction for a loss
+        const BONUS_POINTS = 5; // Bonus points for consecutive wins
+
+        function startGame() {
+            const teamCount = parseInt(document.getElementById('team-count').value);
+            if (teamCount < 2) {
+                alert('Please enter at least 2 teams.');
+                return;
+            }
+
+            teams = Array.from({ length: teamCount }, (_, i) => i + 1);
+            remainingTeams = [...teams];
+            scores = {};
+            matchHistory = {};
+            teams.forEach(team => {
+                scores[team] = 0;
+                matchHistory[team] = new Set(); // Initialize match history
+            });
+
+            losingTeam = null; // Reset the losing team
+            selectTeamsForMatch();
+            updateScores();
+        }
+
+        function selectTeamsForMatch() {
+            if (remainingTeams.length < 2) {
+                document.getElementById('match-result').innerHTML = `Game over! All teams have played.`;
+                document.getElementById('next-match').style.display = 'none';
+                return;
+            }
+
+            if (losingTeam === null) {
+                // First round or no current losing team: Select two random teams
+                let [team1, team2] = getRandomTeams(remainingTeams);
+                currentMatch = [team1, team2];
+            } else {
+                // Next round: The losing team plays against the next available team
+                let nextTeam = getNextTeam(losingTeam);
+                currentMatch = [losingTeam, nextTeam];
+            }
+
+            document.getElementById('match-result').innerHTML = `Teams ${currentMatch[0]} and ${currentMatch[1]} are playing.`;
+            document.getElementById('next-match').style.display = 'block';
+        }
+
+        function getRandomTeams(arr) {
+            let shuffled = arr.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, 2);
+        }
+
+        function getNextTeam(losingTeam) {
+            // Find the next team the losing team hasn't played against
+            for (let team of remainingTeams) {
+                if (team !== losingTeam && !matchHistory[losingTeam].has(team)) {
+                    return team;
+                }
+            }
+            // If all teams have been played against, return the first available team
+            return remainingTeams.find(team => team !== losingTeam);
+        }
+
+        function processLoss() {
+            const losingTeamInput = parseInt(document.getElementById('losing-team').value);
+            if (!currentMatch.includes(losingTeamInput)) {
+                alert(`Team ${losingTeamInput} is not currently playing.`);
+                return;
+            }
+
+            let winningTeam = currentMatch.find(team => team !== losingTeamInput);
+            // Update scores with points and bonuses
+            scores[winningTeam] += WIN_POINTS;
+            scores[winningTeam] += matchHistory[winningTeam].has(losingTeamInput) ? BONUS_POINTS : 0;
+            scores[losingTeamInput] += LOSS_POINTS;
+
+            matchHistory[losingTeamInput].add(winningTeam); // Track that these teams have played
+            matchHistory[winningTeam].add(losingTeamInput);
+
+            remainingTeams = remainingTeams.filter(team => team !== winningTeam);
+            losingTeam = losingTeamInput; // Update the current losing team
+
+            updateScores();
+            selectTeamsForMatch();
+        }
+
+        function updateScores() {
+            let scoreBoard = '<h3>Scores</h3>';
+            // Sort teams by their scores in descending order for leaderboard
+            const sortedTeams = Object.keys(scores).sort((a, b) => scores[b] - scores[a]);
+            sortedTeams.forEach(team => {
+                scoreBoard += `Team ${team}: ${scores[team]} points<br>`;
+            });
+            document.getElementById('scores').innerHTML = scoreBoard;
+        }
+    </script>
+
+</html>
