@@ -51,7 +51,7 @@ To commemorate the beginning of your university journey, have a fellow student t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-2-quest/</guid>
       <description>You have found the hole in the wall. Easy to miss, but essential when you need to sort out a parking dilema!
-Your quest is to take a look at the UU Car Parking webpages and work out how much 6 hours parking will cost a student. Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student.</description>
+Your quest is to take a look at the UU Car Parkingwebpages and work out how much 6 hours parking will cost a student. Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student.</description>
     </item>
     <item>
       <title></title>
@@ -118,6 +118,13 @@ Test</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
       <description>First things first, bookmark this page. Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! Look out for hidden treasure chests at some of the locations. If you crack the lock, prizes await! </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-1-brz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-1-brz/</guid>
+      <description>Faculty Finder This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: </description>
     </item>
     <item>
       <title></title>

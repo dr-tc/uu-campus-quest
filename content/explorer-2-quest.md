@@ -12,7 +12,7 @@ draft = false
 {{< div-justify >}}
 You have found the hole in the wall. Easy to miss, but essential when you need to sort out a parking dilema! 
 
-Your quest is to take a look at the *{{< styled-link href="https://www.ulster.ac.uk/carparks/payments-tariffs" >}}UU Car Parking{{< /styled-link >}}* webpages and work out how much 6 hours parking will cost a student.
+Your quest is to take a look at the {{< styled-link-new-window href="https://www.ulster.ac.uk/carparks/payments-tariffs" >}}UU Car Parking{{< /styled-link-new-window >}}webpages and work out how much **6 hours** parking will cost a student.
 {{< div-end >}}
 Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student. If you have also worked out the bonus, let the student ambassador know the secret number! **
 

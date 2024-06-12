@@ -4,7 +4,9 @@ title = ''
 draft = false
 
 +++
+[![image here](../images/odyssey-1.png#center)](../odyssey-1)
 ![image here](../images/odyssey-1-quest.png#center)
+
 1. Learn Each Other’s Names: Spend time with your team and get to know everyone. Ensure that each team member knows the names of every other person in the group. This is a crucial step as you will need to remember each name accurately.
 
 2. Practice Together: Practice reciting everyone’s names as a team. Take turns and ensure that each name is pronounced correctly. Pay attention to the pronunciation of each name and help each other to say them right. The key is to ensure everyone feels confident in knowing and pronouncing all the names accurately.
