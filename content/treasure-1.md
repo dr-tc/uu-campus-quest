@@ -5,7 +5,7 @@ title = ''
 draft = false
 
 +++
-{{< div-center >}}{{< h1-start >}}Easter Eggs!{{< h1-end >}}{{< div-end >}}
+{{< div-center >}}{{< h1-start >}}Title!{{< h1-end >}}{{< div-end >}}
 ![image here](../images/easter-eggs.png#center)
 {{< row >}}
 {{< column >}}

@@ -8,9 +8,7 @@ draft = false
 ![image here](../images/mindful-journey.png#center)
 
 {{< div-justify >}}
-quest 3
-
-Ready to take on the challenge? Let’s go!
+Congratulations, you have found the path to wellbeing, a crucial step in your journey here at Ulster. Remember this office is always open to guide you on your path. Keep this knowledge close as it is as important as any lecture or book. Take a look around and see if you can spy the quest code. Good luck! 
 {{< div-end >}}
 
 {{< image src="../images/campus-quest-start.png" alt="Responsive image" width="60%" height="auto" >}}

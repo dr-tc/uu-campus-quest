@@ -7,7 +7,7 @@
     <label for="number2">Number of Schools in your Faculty:</label>
     <input type="text" id="number2" name="number2">
     <br>
-    <label for="number3">What is your degree code:</label>
+    <label for="number3">What is the abbreviation for your Faculty:</label>
     <input type="text" id="number3" name="number3">
     <br>
     <button id="validateButton">Submit</button>
@@ -24,13 +24,13 @@ document.getElementById('validateButton').addEventListener('click', function(eve
     
     var num1 = Number(document.getElementById('number1').value);
     var num2 = Number(document.getElementById('number2').value);
-    var num3 = Number(document.getElementById('number3').value);
+    var text3 = document.getElementById('number3').value.trim().toUpperCase();
 
     var correctNum1 = 4;
     var correctNum2 = 6;
-    var correctNum3 = 8722;
+    var correctText3 = 'ahss';
 
-    if (num1 === correctNum1 && num2 === correctNum2 && num3 === correctNum3) {
+    if (num1 === correctNum1 && num2 === correctNum2 && text3 === correctText3.toUpperCase()){
         document.getElementById('special-code').innerText = '143';
         document.getElementById('result').style.display = 'block';
     } else {

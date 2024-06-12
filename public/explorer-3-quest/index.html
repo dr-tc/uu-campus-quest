@@ -8,8 +8,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>UU Campus Quest</title>
 <meta name="keywords" content="">
-<meta name="description" content="mindful journey
-bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Success Ambassador! ">
+<meta name="description" content="Your quest is to take a look at the UU Student Wellbeingwebsite.
+Bookmark this page so you have it handy.! Take a look through the Student Wellbeing site and find the answer to the following question. &#39;Name a service available through Student Wellbeing?Hint, check the Wellbeing TabSubmitCongratulations! Tell the Student Ambassador that the secret to Student Wellbeing at Ulster is: Once you have completed your mission, speak to the nearest Student Success Ambassador and tell **">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/uu-campus-quest/explorer-3-quest/">
 <link crossorigin="anonymous" href="/uu-campus-quest/assets/css/stylesheet.cf1481651c58b2f4693d3bc1df78d33f09d5e2fa8b2db7b3b9c4414567faded1.css" integrity="sha256-zxSBZRxYsvRpPTvB33jTPwnV4vqLLbezucRBRWf63tE=" rel="preload stylesheet" as="style">
@@ -91,7 +91,125 @@ bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Succ
 <img loading="lazy" src="../images/mindful-journey.png#center" alt="image here"  />
 </p>
 <p><div style="text-align: justify">
-mindful journey</p>
+Your quest is to take a look at the <a href="https://www.ulster.ac.uk/wellbeing" class="styled-link" target="_blank" rel="noopener noreferrer">UU Student Wellbeing</a>
+ website.</p>
+<ol>
+<li>Bookmark this page so you have it handy.!</li>
+<li>Take a look through the Student Wellbeing site and find the answer to the following question.</li>
+</ol>
+<p></div>
+
+<style>
+    #form-container {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    #form-container label {
+        color: white;
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    #form-container input[type="text"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container input[type="number"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container input[type="password"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container button {
+        color: white;
+        background-color: #009FDF;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    #form-container button:hover {
+        background-color: #0056b3;
+    }
+    #result {
+        color: white;
+        margin-top: 20px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px; 
+        text-align: center;
+        
+    }
+
+    .timer {
+            font-size: 2em;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.935);
+        }
+
+</style>
+
+<div id="form-container">
+    <label for="inputAnswer">'Name a service available through Student Wellbeing?</label>
+    Hint, check the Wellbeing Tab
+    <input type="text" id="inputAnswer" name="inputAnswer">
+
+    <button id="validateButton">Submit</button>
+</div>
+</br>
+
+<div id="result" style="display:none;">
+    <p>Congratulations! Tell the Student Ambassador that the secret to Student Wellbeing at Ulster is: <span id="special-code"></span></p>
+</div>
+
+<script>
+document.getElementById('validateButton').addEventListener('click', function(event) {
+    event.preventDefault();
+    
+
+    var inputAnswer = document.getElementById('inputAnswer').value.trim().toLowerCase();
+
+   
+    var correctText1 = 'mental health';
+    var correctText2 = 'healthy relationships';
+    var correctText3 = 'physical wellbeing';
+    var correctText4 = 'academic support';
+    var correctText5 = 'thinking of leaving';
+    var correctText6 = 'health services';
+
+    if (inputAnswer === correctText1.toLowerCase() || inputAnswer === correctText2.toLowerCase() || inputAnswer === correctText3.toLowerCase()|| inputAnswer === correctText4.toLowerCase()|| inputAnswer === correctText5.toLowerCase() || inputAnswer === correctText6.toLowerCase()){
+        document.getElementById('special-code').innerText = 'You are not alone!';
+        document.getElementById('result').style.display = 'block';
+    } else {
+        alert('Incorrect. Please try again.');
+    }
+});
+</script>
+
+Once you have completed your mission, speak to the nearest Student Success Ambassador and tell **</p>
 <p><img loading="lazy" src="../images/quest-icon-bonus.png#right" alt="image here"  />
 
 <div style="text-align: justify">

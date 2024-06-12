@@ -12,7 +12,7 @@
       <link>http://localhost:1313/uu-campus-quest/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/about/</guid>
-      <description>Campus Quest was designed and created by Dr Thérèse Charles who is a lecturer in Game Design and Development, based on the Derry~Londonderry campus. Credits: AI generated images from DreamStudio.aiCampus Map: ulster.ac.uk/maps/All other images created using Canva.comFree sounds from Pixabay.comQR Codes generated using AdobeExpress.comSite hosted on GitHub Pagesusing the Hugoframework.</description>
+      <description>&lt;!DOCTYPE html&gt;Image Map ExampleCampus Quest was designed and created by Dr Thérèse Charles who is a lecturer in Game Design and Development, based on the Derry~Londonderry campus. Credits: AI generated images from DreamStudio.aiCampus Map: ulster.ac.uk/maps/All other images created using Canva.comFree sounds from Pixabay.comQR Codes generated using AdobeExpress.comSite hosted on GitHub Pagesusing the Hugoframework.</description>
     </item>
     <item>
       <title></title>
@@ -20,7 +20,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/chest-1-brz/</guid>
       <description>Faculty Finder In a diagram below, you&amp;rsquo;ll see a grand educational tree, Find the faculties, how many can there be? In your chosen branch, how many schools reside? Count them all, then look far and wide. Sum up each school in every faculty, And reveal the total count for all to see!
-Number of Faculties:Number of Schools in your Faculty:What is your degree code:SubmitCongratulations! The combination is: </description>
+Number of Faculties:Number of Schools in your Faculty:What is the abbreviation for your Faculty:SubmitCongratulations! The combination is: </description>
     </item>
     <item>
       <title></title>
@@ -66,16 +66,15 @@ Whether you&amp;rsquo;re a seasoned driver or new to campus, mastering the art o
       <link>http://localhost:1313/uu-campus-quest/explorer-3-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-3-quest/</guid>
-      <description>mindful journey
-bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Success Ambassador! </description>
+      <description>Your quest is to take a look at the UU Student Wellbeingwebsite.
+Bookmark this page so you have it handy.! Take a look through the Student Wellbeing site and find the answer to the following question. &#39;Name a service available through Student Wellbeing?Hint, check the Wellbeing TabSubmitCongratulations! Tell the Student Ambassador that the secret to Student Wellbeing at Ulster is: Once you have completed your mission, speak to the nearest Student Success Ambassador and tell **</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-3/</guid>
-      <description>quest 3
-Ready to take on the challenge? Let’s go! Return to the Explorer&#39;s Trail
+      <description>Congratulations, you have found the path to wellbeing, a crucial step in your journey here at Ulster. Remember this office is always open to guide you on your path. Keep this knowledge close as it is as important as any lecture or book. Take a look around and see if you can spy the quest code. Good luck! Return to the Explorer&#39;s Trail
 Test</description>
     </item>
     <item>
@@ -197,7 +196,7 @@ then get ready for a team face-off!</description>
       <link>http://localhost:1313/uu-campus-quest/treasure-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/treasure-1/</guid>
-      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. ___</description>
+      <description>Title! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. ___</description>
     </item>
   </channel>
 </rss>
