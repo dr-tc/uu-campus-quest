@@ -30,4 +30,8 @@
   align-items: center;
   
 }
-
+.logo {
+  flex-wrap: inherit;
+  padding-top: 20px;
+}
+    

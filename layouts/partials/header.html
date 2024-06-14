@@ -2,6 +2,7 @@
 {{- if (not site.Params.disableThemeToggle) }}
 {{- /* theme is light */}}
 {{- if (eq site.Params.defaultTheme "light") }}
+
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -42,14 +43,10 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <!-- First image with hyperlink -->
-            <a href="" aria-label="Link to Page 1">
-                <img src="images/index-header.png" alt="">
-            </a>
-            <!-- Second image with hyperlink, assuming a different link -->
-            <a href="../" aria-label="Link to Page 2">
-                <img src="../images/index-header.png" alt="">
-            </a>
+            <a href="">
+            <img src="images/index-header.png" alt="" aria-label="logo"></a>
+            <a href="../">
+                <img src="../images/index-header.png" alt="" aria-label="logo"></a>
         </div>
 
         {{- $currentPage := . }}
