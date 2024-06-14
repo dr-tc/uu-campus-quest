@@ -42,10 +42,16 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-        
-            <img src="images/index-header.png" alt="" aria-label="logo">
-                <img src="../images/index-header.png" alt="" aria-label="logo">
+            <!-- First image with hyperlink -->
+            <a href="" aria-label="Link to Page 1">
+                <img src="images/index-header.png" alt="">
+            </a>
+            <!-- Second image with hyperlink, assuming a different link -->
+            <a href="../" aria-label="Link to Page 2">
+                <img src="../images/index-header.png" alt="">
+            </a>
         </div>
+
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}

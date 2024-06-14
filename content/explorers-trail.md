@@ -5,7 +5,8 @@ draft = false
 
 
 +++
-![image here](../images/explorer.png#center)
+
+{{< div-center >}}{{< image-map >}}{{< div-end >}}
 {{< row >}}
 {{< column >}}
 {{< div-container-start>}} {{< h3-start >}}First things first, bookmark this page. {{< break-start >}}{{< break-end >}}Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! {{< h3-end>}}{{< div-container-end>}}{{< column-end >}}
@@ -15,12 +16,12 @@ draft = false
 {{< column-end >}}
 
 {{< row-end >}}
-
+{{< div-center >}}
 [![image here](../images/explorer-1.png#center)](../explorer-1)
 [![image here](../images/explorer-2.png#center)](../explorer-2)
 [![image here](../images/explorer-3.png#center)](../explorer-3)
 [![image here](../images/explorer-4.png#center)](../explorer-4)
-[![image here](../images/explorer-5.png#center)](../explorer-5)
+[![image here](../images/explorer-5.png#center)](../explorer-5){{< div-end >}}
 
 ___
 
