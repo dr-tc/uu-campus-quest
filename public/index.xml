@@ -127,10 +127,24 @@ Test</description>
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/uu-campus-quest/lock-map-box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/lock-map-box/</guid>
+      <description>This Campus Map Box is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: </description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/uu-campus-quest/lost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lost/</guid>
       <description>Ok, don&amp;rsquo;t panic, find a place to sit down and take a look at the map. </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/map-box/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/map-box/</guid>
+      <description>Campus Map To unlock the campus map box you need to answer the following question. If Game Design Studio building is MH, what is the Martha Magee building?SubmitCongratulations! The combination is: . Take a map and please remember to lock the box for the next Explorer.</description>
     </item>
     <item>
       <title></title>

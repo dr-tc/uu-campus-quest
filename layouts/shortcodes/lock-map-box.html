@@ -1,0 +1,28 @@
+
+{{ partial "form_styles.html" }}
+<div id="form-container">
+    <label for="number1">Course Code:</label>
+    <input type="text" id="number1" name="number1">
+    <br>
+    <button id="validateButton">Submit</button>
+</div>
+</br>
+
+<div id="result" style="display:none;">
+    <p>Congratulations! The combination is: <span id="special-code"></span></p>
+</div>
+
+<script>
+    document.getElementById('validateButton').addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        const inputCode = document.getElementById('number1').value;
+        const correctCode = '8722'; 
+        
+        if (inputCode === correctCode) {
+            window.location.href = '../map-box'; 
+        } else {
+            alert('Incorrect course code. Please try again.');
+        }
+    });
+</script>

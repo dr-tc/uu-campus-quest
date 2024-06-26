@@ -8,9 +8,9 @@
 <meta name="robots" content="noindex, nofollow">
 <title>UU Campus Quest</title>
 <meta name="keywords" content="">
-<meta name="description" content="Campus Quest was designed and created by Dr Thérèse Charles who is a lecturer in Game Design and Development, based on the Derry~Londonderry campus. Credits: AI generated images from DreamStudio.aiCampus Map: ulster.ac.uk/maps/All other images created using Canva.comFree sounds from Pixabay.comQR Codes generated using AdobeExpress.comSite hosted on GitHub Pagesusing the Hugoframework.">
+<meta name="description" content="This Campus Map Box is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: ">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/uu-campus-quest/about/">
+<link rel="canonical" href="http://localhost:1313/uu-campus-quest/lock-map-box/">
 <link crossorigin="anonymous" href="/uu-campus-quest/assets/css/stylesheet.1936fd7965d843b027a388073f1d8e56fce2dde04238e3241186b2c53935a3b5.css" integrity="sha256-GTb9eWXYQ7Ano4gHPx2OVvzi3eBCOOMkEYayxTk1o7U=" rel="preload stylesheet" as="style">
 
 
@@ -22,7 +22,7 @@
 <link rel="mask-icon" href="http://localhost:1313/uu-campus-quest/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/uu-campus-quest/about/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/uu-campus-quest/lock-map-box/">
 <noscript>
     <style>
         #theme-toggle,
@@ -68,7 +68,7 @@
             </li>
             <li>
                 <a href="http://localhost:1313/uu-campus-quest/about" title="About">
-                    <span class="active">About</span>
+                    <span>About</span>
                 </a>
             </li>
         </ul>
@@ -86,43 +86,115 @@
 
 </div>
   </header> 
-  <div class="post-content"><p><div class="row">
-<div class="column">
-<div class="container">Campus Quest was designed and created by Dr Thérèse Charles who is a lecturer in Game Design and Development, based on the Derry~Londonderry campus. </div></div>
-<div class="column"><div class="container"></p>
-<p><div style="text-align: center;">
-    <img src="../images/tc.png" alt="Responsive image" style="width: 35%; height: auto; display: inline-block;">
-</div></div></p>
+  <div class="post-content"><p><img loading="lazy" src="../images/chest-3.png#center" alt="image here"  />
+</p>
+<p><div style="text-align: center">This Campus Map Box is part of the Campus Quest Game. If you are playing the game, enter your course code below:
+<br></br>
+
+<style>
+    #form-container {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    #form-container label {
+        color: white;
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    #form-container input[type="text"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container input[type="number"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container input[type="password"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container button {
+        color: white;
+        background-color: #009FDF;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    #form-container button:hover {
+        background-color: #0056b3;
+    }
+    #result {
+        color: white;
+        margin-top: 20px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px; 
+        text-align: center;
+        
+    }
+
+    .timer {
+            font-size: 2em;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.935);
+        }
+
+</style>
+
+<div id="form-container">
+    <label for="number1">Course Code:</label>
+    <input type="text" id="number1" name="number1">
+    <br>
+    <button id="validateButton">Submit</button>
 </div>
+</br>
+
+<div id="result" style="display:none;">
+    <p>Congratulations! The combination is: <span id="special-code"></span></p>
 </div>
-<h3 id="creditshahahugoshortcode39s11hbhb">Credits:</br><a hidden class="anchor" aria-hidden="true" href="#creditshahahugoshortcode39s11hbhb">#</a></h3>
-<ul>
-<li>
-<p>AI generated images from <a href="https://dreamstudio.ai/generate" class="styled-link" target="_blank" rel="noopener noreferrer">DreamStudio.ai</a>
+
+<script>
+    document.getElementById('validateButton').addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        const inputCode = document.getElementById('number1').value;
+        const correctCode = '8722'; 
+        
+        if (inputCode === correctCode) {
+            window.location.href = '../map-box'; 
+        } else {
+            alert('Incorrect course code. Please try again.');
+        }
+    });
+</script>
 </p>
-</li>
-<li>
-<p>Campus Map: <a href="https://www.ulster.ac.uk/maps/derry-londonderry" class="styled-link" target="_blank" rel="noopener noreferrer">ulster.ac.uk/maps/</a>
-</p>
-</li>
-<li>
-<p>All other images created using <a href="https://www.canva.com/" class="styled-link" target="_blank" rel="noopener noreferrer">Canva.com</a>
-</p>
-</li>
-<li>
-<p>Free sounds from <a href="https://www.pixabay.com/" class="styled-link" target="_blank" rel="noopener noreferrer">Pixabay.com</a>
-</p>
-</li>
-<li>
-<p>QR Codes generated using <a href="https://new.express.adobe.com/tools/generate-qr-code" class="styled-link" target="_blank" rel="noopener noreferrer">AdobeExpress.com</a>
-</p>
-</li>
-<li>
-<p>Site hosted on <a href="https://pages.github.com/" class="styled-link" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
- using the <a href="https://gohugo.io/" class="styled-link" target="_blank" rel="noopener noreferrer">Hugo</a>
- framework.</p>
-</li>
-</ul>
+</div>
+<hr>
+<p><a href="../lost"><img loading="lazy" src="../images/lost-icon.png#center" alt="image here"  />
+</a></p>
 
 
   </div>

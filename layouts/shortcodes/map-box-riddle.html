@@ -1,0 +1,32 @@
+
+{{ partial "form_styles.html" }}
+<div id="form-container">
+    
+    <label for="number3">If Game Design Studio building is MH, what is the Martha Magee building?</label>
+    <input type="text" id="text" name="text">
+    <br>
+    <button id="validateButton">Submit</button>
+</div>
+</br>
+
+<div id="result" style="display:none;">
+    <p>Congratulations! The combination is: <span id="special-code"></span>. <br>Take a map and please remember to lock the box for the next Explorer.</p>
+</div>
+
+<script>
+document.getElementById('validateButton').addEventListener('click', function(event) {
+    event.preventDefault();
+    
+  
+    var text = document.getElementById('text').value.trim().toUpperCase();
+
+    var correctText = 'md';
+
+    if  (text === correctText.toUpperCase()){
+        document.getElementById('special-code').innerText = '999';
+        document.getElementById('result').style.display = 'block';
+    } else {
+        alert('Incorrect. Please try again.');
+    }
+});
+</script>
