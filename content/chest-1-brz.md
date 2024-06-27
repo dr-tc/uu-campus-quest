@@ -16,7 +16,7 @@ Sum up each school in every faculty,
 And reveal the total count for all to see!{{< break-start >}}{{< break-end >}}
 {{< chest-1-riddle >}}
 ![image here](../images/uni-diagram.gif#center)
-
+{{< div-center >}}*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___
 
 [![image here](../images/lost-icon.png#center)](../lost)

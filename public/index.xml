@@ -20,7 +20,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/chest-1-brz/</guid>
       <description>Faculty Finder In a diagram below, you&amp;rsquo;ll see a grand educational tree, Find the faculties, how many can there be? In your chosen branch, how many schools reside? Count them all, then look far and wide. Sum up each school in every faculty, And reveal the total count for all to see!
-Number of Faculties:Number of Schools in your Faculty:What is the abbreviation for your Faculty:SubmitCongratulations! The combination is: </description>
+Number of Faculties:Number of Schools in your Faculty:What is the abbreviation for your Faculty:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
@@ -70,8 +70,8 @@ Number of Faculties:Number of Schools in your Faculty:What is the abbreviation
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-1-quest/</guid>
       <description>Welcome to Derry/Londonderry&amp;rsquo;s campus reception! You are now in the Martha Magee building, commonly referred to as MD, and affectionately known by students as &amp;lsquo;Hogwarts&amp;rsquo;.
-Your quest is to obtain a map of the campus. This map will reveal the university&amp;rsquo;s layout, guiding you through its various paths and buildings. Once you have completed your mission, present your campus map to the nearest Student Success Ambassador.
-To commemorate the beginning of your university journey, have a fellow student take a photo of your team outside &amp;lsquo;Hogwarts&amp;rsquo;.</description>
+Your quest is to obtain a map of the campus. This map will reveal the university&amp;rsquo;s layout, guiding you through its various paths and buildings. Test Lock Box
+Once you have completed your mission, present your campus map to the nearest Student Success Ambassador.</description>
     </item>
     <item>
       <title></title>
@@ -158,7 +158,8 @@ Test</description>
       <link>http://localhost:1313/uu-campus-quest/lock-chest-1-brz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lock-chest-1-brz/</guid>
-      <description>Faculty Finder This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: </description>
+      <description>Faculty Finder This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
+Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
@@ -193,7 +194,7 @@ Test</description>
       <link>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</guid>
-      <description>Chest 6 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: </description>
+      <description>Chest 6 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below test: Course Code:SubmitCongratulations! The combination is: </description>
     </item>
     <item>
       <title></title>
@@ -214,7 +215,7 @@ Test</description>
       <link>http://localhost:1313/uu-campus-quest/map-box/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/map-box/</guid>
-      <description>Campus Map To unlock the campus map box you need to answer the following question. If Game Design Studio building is MH, what is the Martha Magee building?SubmitCongratulations! The combination is: . Take a map and please remember to lock the box for the next Explorer.
+      <description>Campus Map To unlock the campus map box you need to answer the following question. If the Game Design Studio building is MH, what is the Martha Magee building?SubmitCongratulations! The combination is: . Take a map and please remember to lock the box for the next Explorer.
 Return to the Explorer&#39;s Trail</description>
     </item>
     <item>
