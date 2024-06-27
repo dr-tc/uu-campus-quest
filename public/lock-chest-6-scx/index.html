@@ -8,10 +8,9 @@
 <meta name="robots" content="noindex, nofollow">
 <title>UU Campus Quest</title>
 <meta name="keywords" content="">
-<meta name="description" content="Challenge Time! Reflect on your experience from Quest 1 and discuss among your team to identify who has the sharpest memory. Nominate that person to be your champion in the Name-Off quest!
-Minutes:Seconds:Start CountdownStop00:00Enter the secret password:Submit">
+<meta name="description" content="Chest 6 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: ">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/uu-campus-quest/odyssey-4/">
+<link rel="canonical" href="http://localhost:1313/uu-campus-quest/lock-chest-6-scx/">
 <link crossorigin="anonymous" href="/uu-campus-quest/assets/css/stylesheet.1936fd7965d843b027a388073f1d8e56fce2dde04238e3241186b2c53935a3b5.css" integrity="sha256-GTb9eWXYQ7Ano4gHPx2OVvzi3eBCOOMkEYayxTk1o7U=" rel="preload stylesheet" as="style">
 
 
@@ -23,7 +22,7 @@ Minutes:Seconds:Start CountdownStop00:00Enter the secret password:Submit"
 <link rel="mask-icon" href="http://localhost:1313/uu-campus-quest/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/uu-campus-quest/odyssey-4/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/uu-campus-quest/lock-chest-6-scx/">
 <noscript>
     <style>
         #theme-toggle,
@@ -87,71 +86,12 @@ Minutes:Seconds:Start CountdownStop00:00Enter the secret password:Submit"
 
 </div>
   </header> 
-  <div class="post-content"><p><img loading="lazy" src="../images/odyssey-4.png#center" alt="image here"  />
+  <div class="post-content"><p><div style="text-align: center"><h1>Chest 6 Lock</h1></div>
+<img loading="lazy" src="../images/chest-3.png#center" alt="image here"  />
 
-<div style="text-align: center"><h3>Challenge Time! Reflect on your experience from Quest 1 and discuss among your team to identify who has the sharpest memory. Nominate that person to be your champion in the Name-Off quest!</h3></div><br>
+<br></br>
+This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
 
-
-
-
-<div id="form-container">
-    <label for="minutes">Minutes:</label>
-    <input type="number" id="minutes" min="0" max="59">
-    <label for="seconds">Seconds:</label>
-    <input type="number" id="seconds" min="0" max="59">
-    <br>
-    <button class="button" id="startButton">Start Countdown</button>
-    <button class="button" id="stopButton">Stop</button>
-    <div id="timer" class="timer">00:00</div>
-    <audio id="alarm-sound" src="../audio/times-up.mp3" preload="auto"></audio>
-</div>
-
-    <script>
-        document.getElementById('startButton').addEventListener('click', function() {
-    const minutesInput = parseInt(document.getElementById('minutes').value) || 0;
-    const secondsInput = parseInt(document.getElementById('seconds').value) || 0;
-    let countdownTime = (minutesInput * 60) + secondsInput; 
-    const timerDisplay = document.getElementById('timer');
-    const alarmSound = document.getElementById('alarm-sound');
-
-    
-    updateDisplay(countdownTime);
-
-    
-    clearInterval(window.countdownInterval);
-
-    
-    window.countdownInterval = setInterval(function() {
-        countdownTime--;
-
-        if (countdownTime < 0) {
-            clearInterval(window.countdownInterval);
-            timerDisplay.textContent = "Time's up!";
-            alarmSound.play(); 
-        } else {
-            updateDisplay(countdownTime);
-        }
-    }, 1000);
-});
-
-document.getElementById('stopButton').addEventListener('click', function() {
-    clearInterval(window.countdownInterval);
-    const timerDisplay = document.getElementById('timer');
-    timerDisplay.textContent = '00:00'; 
-    document.getElementById('minutes').value = ''; 
-    document.getElementById('seconds').value = ''; 
-});
-
-function updateDisplay(seconds) {
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
-    document.getElementById('timer').textContent = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
-}
-
-    </script>
-
-
-<br>
 <style>
     #form-container {
         background-color: #333;
@@ -225,31 +165,36 @@ function updateDisplay(seconds) {
 
 </style>
 
-    
+<div id="form-container">
+    <label for="number1">Course Code:</label>
+    <input type="text" id="number1" name="number1">
+    <br>
+    <button id="validateButton">Submit</button>
+</div>
+</br>
 
-    <div id="form-container">
-        <label for="password">Enter the secret password:</label>
-        <input type="password" id="password" name="password">
-        <br>
-        <button id="validateButton">Submit</button>
-    </div>
+<div id="result" style="display:none;">
+    <p>Congratulations! The combination is: <span id="special-code"></span></p>
+</div>
 
-    <script>
-        document.getElementById('validateButton').addEventListener('click', function(event) {
-            event.preventDefault();
-            
-            const enteredPassword = document.getElementById('password').value;
-            const secretPassword = 'flatland'; 
-            
-            if (enteredPassword === secretPassword) {
-                window.location.href = '../name-off'; 
-            } else {
-                alert('Incorrect password. Please try again.');
-            }
-        });
-    </script>
-
+<script>
+    document.getElementById('validateButton').addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        const inputCode = document.getElementById('number1').value;
+        const correctCode = '8722'; 
+        
+        if (inputCode === correctCode) {
+            window.location.href = '../chest-2-tmz'; 
+        } else {
+            alert('Incorrect course code. Please try again.');
+        }
+    });
+</script>
 </p>
+<hr>
+<p><a href="../lost"><img loading="lazy" src="../images/lost-icon.png#center" alt="image here"  />
+</a></p>
 
 
   </div>

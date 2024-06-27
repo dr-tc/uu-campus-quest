@@ -3,45 +3,58 @@
 
 
 <div id="form-container">
-        <label for="minutes">Minutes:</label>
-        <input type="number" id="minutes" min="0" max="59">
-        <label for="seconds">Seconds:</label>
-        <input type="number" id="seconds" min="0" max="59">
-        <br>
-        <button class="button" id="startButton">Start Countdown</button>
-        <div id="timer" class="timer">00:00</div>
-        <audio id="alarm-sound" src="../audio/times-up.mp3" preload="auto"></audio>
-    </div>
+    <label for="minutes">Minutes:</label>
+    <input type="number" id="minutes" min="0" max="59">
+    <label for="seconds">Seconds:</label>
+    <input type="number" id="seconds" min="0" max="59">
+    <br>
+    <button class="button" id="startButton">Start Countdown</button>
+    <button class="button" id="stopButton">Stop</button>
+    <div id="timer" class="timer">00:00</div>
+    <audio id="alarm-sound" src="../audio/times-up.mp3" preload="auto"></audio>
+</div>
 
     <script>
         document.getElementById('startButton').addEventListener('click', function() {
-            const minutesInput = parseInt(document.getElementById('minutes').value) || 0;
-            const secondsInput = parseInt(document.getElementById('seconds').value) || 0;
-            let countdownTime = (minutesInput * 60) + secondsInput; // Convert minutes and seconds to total seconds
-            const timerDisplay = document.getElementById('timer');
-            const alarmSound = document.getElementById('alarm-sound');
+    const minutesInput = parseInt(document.getElementById('minutes').value) || 0;
+    const secondsInput = parseInt(document.getElementById('seconds').value) || 0;
+    let countdownTime = (minutesInput * 60) + secondsInput; // Convert minutes and seconds to total seconds
+    const timerDisplay = document.getElementById('timer');
+    const alarmSound = document.getElementById('alarm-sound');
 
-            function updateDisplay(seconds) {
-                const minutes = Math.floor(seconds / 60);
-                const remainingSeconds = seconds % 60;
-                timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
-            }
+    // Initialize the display
+    updateDisplay(countdownTime);
 
-            // Initialize the display
+    // Clear existing interval if any
+    clearInterval(window.countdownInterval);
+
+    // Start the countdown
+    window.countdownInterval = setInterval(function() {
+        countdownTime--;
+
+        if (countdownTime < 0) {
+            clearInterval(window.countdownInterval);
+            timerDisplay.textContent = "Time's up!";
+            alarmSound.play(); // Play the sound when time is up
+        } else {
             updateDisplay(countdownTime);
+        }
+    }, 1000);
+});
 
-            // Start the countdown
-            const countdownInterval = setInterval(function() {
-                countdownTime--;
+document.getElementById('stopButton').addEventListener('click', function() {
+    clearInterval(window.countdownInterval);
+    const timerDisplay = document.getElementById('timer');
+    timerDisplay.textContent = '00:00'; // Reset display to zero
+    document.getElementById('minutes').value = ''; // Optionally clear the minute input
+    document.getElementById('seconds').value = ''; // Optionally clear the second input
+});
 
-                if (countdownTime < 0) {
-                    clearInterval(countdownInterval);
-                    timerDisplay.textContent = "Time's up!";
-                    alarmSound.play(); // Play the sound when time is up
-                } else {
-                    updateDisplay(countdownTime);
-                }
-            }, 1000);
-        });
+function updateDisplay(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
+    document.getElementById('timer').textContent = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+}
+
     </script>
 
