@@ -14,6 +14,9 @@ draft = false
 ![image here](../images/chest-3.png#center){{< div-container-end>}}
 {{< column-end >}}
 {{< row-end >}}
+{{< div-center >}}{{< button url="../lock-chest-1-brz" text="Demo-Treasure-Chest-1" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
+{{< div-center >}}{{< button url="../lock-chest-2-tmz" text="Demo-Treasure-Chest-2" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
+
 ___
 
 [![image here](../images/lost-icon.png#center)](../lost)
