@@ -15,7 +15,8 @@ Welcome to Derry/Londonderry's campus reception! You are now in the Martha Magee
 
 Your quest is to obtain a map of the campus. This map will reveal the university's layout, guiding you through its various paths and buildings.
 {{< div-end >}}{{< div-center >}}
-*{{< styled-link href="../lock-map-box" >}}Test Lock Box{{< /styled-link >}}*{{< div-end >}}{{< break-start >}}{{< break-end >}}
+
+{{< div-center >}}{{< button url="../lock-map-box" text="Demo-Campus-Box-QR-Link" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 **Once you have completed your mission, present your campus map to the nearest Student Success Ambassador.**
 
 ![image here](../images/quest-icon-bonus.png#right)
