@@ -9,7 +9,7 @@ draft = false
 {{< div-center >}}{{< image-map >}}{{< div-end >}}
 {{< row >}}
 {{< column >}}
-{{< div-container-start>}} {{< h3-start >}}First things first, bookmark this page. {{< break-start >}}{{< break-end >}}Roll the dice to choose a quest. Once all 5 quests have been completed, return home to MH, your ship awaits! {{< h3-end>}}{{< div-container-end>}}{{< column-end >}}
+{{< div-container-start>}} {{< h3-start >}}First things first, bookmark this page. {{< break-start >}}{{< break-end >}}Roll the die to choose a quest. Once all five quests have been completed, return home to MH; your ship awaits! {{< h3-end>}}{{< div-container-end>}}{{< column-end >}}
 {{< column >}}{{< div-container-start>}} 
 ![image here](../images/dice.png#center){{< div-container-end>}}
 
