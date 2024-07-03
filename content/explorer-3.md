@@ -8,7 +8,7 @@ draft = false
 ![image here](../images/mindful-journey.png#center)
 
 {{< div-justify >}}
-Congratulations, you have found the path to wellbeing, a crucial step in your journey here at Ulster. Remember this office is always open to guide you on your path. Keep this knowledge close as it is as important as any lecture or book. Take a look around and see if you can spy the quest code. Good luck! 
+ Your mission is to locate the heart of student wellness—the Student Wellbeing Office. This sanctuary offers support and resources essential for maintaining balance and health during your academic voyage. Be vigilant, as the path may be less travelled but crucially rewarding.
 {{< div-end >}}
 
 {{< image src="../quest-3-find-me.png" alt="Responsive image" width="60%" height="auto" >}}
