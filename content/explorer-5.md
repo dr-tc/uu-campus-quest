@@ -8,7 +8,12 @@ draft = false
 ![image here](../images/archive.png#center)
 
 {{< div-justify >}}
-quest 5
+I am a treasure trove of knowledge, a keeper of stories old and new.
+Through doors of wisdom, past rows of silent guardians true.
+Where students seek answers, and scholars peruse,
+Find me where learning never snoozes.
+
+Where am I?
 
 Ready to take on the challenge? Let’s go!
 {{< div-end >}}
