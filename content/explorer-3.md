@@ -17,4 +17,3 @@ draft = false
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___
 [![image here](../images/lost-icon.png#center)](../lost)
-{{< div-center >}}{{< button url="../explorer-3-quest" text="Test" >}}{{< div-end >}}
