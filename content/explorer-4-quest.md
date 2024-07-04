@@ -10,7 +10,7 @@ draft = false
 
 
 {{< div-justify >}}
-admin adventure
+Congratulations, explorers! You've successfully found the Student Administration office—well done on navigating your way here. This office is your gateway to essential services and support throughout your academic journey.
 
 ![image here](../images/quest-icon-bonus.png#right)
 {{< div-justify >}}
