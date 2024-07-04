@@ -87,7 +87,7 @@ Your quest will take you to the lofty heights of the library in search of a spec
 
 </div>
   </header> 
-  <div class="post-content"><p><img loading="lazy" src="../images/explorer-4.png#center" alt="image here"  />
+  <div class="post-content"><p><img loading="lazy" src="../images/explorer-5.png#center" alt="image here"  />
 
 <img loading="lazy" src="../images/archive.png#center" alt="image here"  />
 </p>
@@ -95,6 +95,112 @@ Your quest will take you to the lofty heights of the library in search of a spec
 Well done, explorers! You&rsquo;ve successfully navigated the corridors of knowledge to reach the library—the central hub for learning and discovery on our campus. This is where ideas come to life, and wisdom is at your fingertips. Take a moment to appreciate your surroundings and prepare for the many adventures that await you here.</p>
 <p>Your quest will take you to the lofty heights of the library in search of a special book. Find <strong>GV1469.17.S63K67</strong>. On your way don&rsquo;t forget to keep an eye out for treasure!</p>
 <p>Once you have successfully secured the book, input the authors surname below:</p>
+<p></div>
+
+<style>
+    #form-container {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    #form-container label {
+        color: white;
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    #form-container input[type="text"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container input[type="number"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container input[type="password"] {
+        color: white;
+        background-color: #555;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+    #form-container button {
+        color: white;
+        background-color: #009FDF;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-top: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    #form-container button:hover {
+        background-color: #0056b3;
+    }
+    #result {
+        color: white;
+        margin-top: 20px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px; 
+        text-align: center;
+        
+    }
+
+    .timer {
+            font-size: 2em;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.935);
+        }
+
+</style>
+
+<div id="form-container">
+    <label for="inputAnswer">Author's Surname?</label>
+    <input type="text" id="inputAnswer" name="inputAnswer">
+
+    <button id="validateButton">Submit</button>
+</div>
+</br>
+
+<div id="result" style="display:none;">
+    <p>Congratulations! Tell the Student Ambassador that the secret word: <span id="special-code"></span></p>
+</div>
+
+<script>
+document.getElementById('validateButton').addEventListener('click', function(event) {
+    event.preventDefault();
+    
+
+    var inputAnswer = document.getElementById('inputAnswer').value.trim().toLowerCase();
+
+   
+    var correctText1 = 'Koster';
+
+    if (inputAnswer === correctText1.toLowerCase()){
+        document.getElementById('special-code').innerText = 'GROK';
+        document.getElementById('result').style.display = 'block';
+    } else {
+        alert('Incorrect. Please try again.');
+    }
+});
+</script>
+</p>
 <p><img loading="lazy" src="../images/quest-icon-bonus.png#right" alt="image here"  />
 
 <div style="text-align: justify">

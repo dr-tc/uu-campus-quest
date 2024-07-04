@@ -1,0 +1,32 @@
+
+{{ partial "form_styles.html" }}
+<div id="form-container">
+    <label for="inputAnswer">Author's Surname?</label>
+    <input type="text" id="inputAnswer" name="inputAnswer">
+
+    <button id="validateButton">Submit</button>
+</div>
+</br>
+
+<div id="result" style="display:none;">
+    <p>Congratulations! Tell the Student Ambassador that the secret word: <span id="special-code"></span></p>
+</div>
+
+<script>
+document.getElementById('validateButton').addEventListener('click', function(event) {
+    event.preventDefault();
+    
+
+    var inputAnswer = document.getElementById('inputAnswer').value.trim().toLowerCase();
+
+   
+    var correctText1 = 'Koster';
+
+    if (inputAnswer === correctText1.toLowerCase()){
+        document.getElementById('special-code').innerText = 'GROK';
+        document.getElementById('result').style.display = 'block';
+    } else {
+        alert('Incorrect. Please try again.');
+    }
+});
+</script>

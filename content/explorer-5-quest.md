@@ -5,7 +5,7 @@ title = ''
 draft = false
 
 +++
-![image here](../images/explorer-4.png#center)
+![image here](../images/explorer-5.png#center)
 ![image here](../images/archive.png#center)
 
 
@@ -16,6 +16,8 @@ Your quest will take you to the lofty heights of the library in search of a spec
 
 Once you have successfully secured the book, input the authors surname below:
 
+{{< div-end >}}
+{{< quest-5-riddle >}}
 
 
 ![image here](../images/quest-icon-bonus.png#right)
