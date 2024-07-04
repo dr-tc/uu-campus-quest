@@ -18,11 +18,9 @@ Once you have successfully secured the book, input the authors surname below:
 
 {{< div-end >}}
 {{< quest-5-riddle >}}
-
-
 ![image here](../images/quest-icon-bonus.png#right)
 {{< div-justify >}}
-bonus
+I need to visit the library for this
 {{< div-end >}}
 
 {{< div-center>}}
