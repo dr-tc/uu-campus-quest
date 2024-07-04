@@ -62,7 +62,7 @@ Number of Faculties:Number of Schools in your Faculty:What is the abbreviation
       <link>http://localhost:1313/uu-campus-quest/easter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/easter/</guid>
-      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. </description>
+      <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. Demo-Treasure-Chest-1Demo-Treasure-Chest-2</description>
     </item>
     <item>
       <title></title>
@@ -70,8 +70,8 @@ Number of Faculties:Number of Schools in your Faculty:What is the abbreviation
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-1-quest/</guid>
       <description>Welcome to Derry/Londonderry&amp;rsquo;s campus reception! You are now in the Martha Magee building, commonly referred to as MD, and affectionately known by students as &amp;lsquo;Hogwarts&amp;rsquo;.
-Your quest is to obtain a map of the campus. This map will reveal the university&amp;rsquo;s layout, guiding you through its various paths and buildings. Test Lock Box
-Once you have completed your mission, present your campus map to the nearest Student Success Ambassador.</description>
+Your quest is to obtain a map of the campus. This map will reveal the university&amp;rsquo;s layout, guiding you through its various paths and buildings. Demo-Campus-Box-QR-LinkOnce you have completed your mission, present your campus map to the nearest Student Success Ambassador.
+To commemorate the beginning of your university journey, have a fellow student take a photo of your team outside &amp;lsquo;Hogwarts&amp;rsquo;.</description>
     </item>
     <item>
       <title></title>
@@ -85,7 +85,7 @@ Once you have completed your mission, present your campus map to the nearest Stu
       <link>http://localhost:1313/uu-campus-quest/explorer-2-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-2-quest/</guid>
-      <description>You have found the hole in the wall. Easy to miss, but essential when you need to sort out a parking dilema!
+      <description>You have found the hole in the wall. Easy to miss, but essential when you need to sort out a parking dilemma!
 Your quest is to take a look at the UU Car Parkingwebpages and work out how much 6 hours parking will cost a student. Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student.</description>
     </item>
     <item>
@@ -101,15 +101,16 @@ Whether you&amp;rsquo;re a seasoned driver or new to campus, mastering the art o
       <link>http://localhost:1313/uu-campus-quest/explorer-3-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-3-quest/</guid>
-      <description>Your quest is to take a look at the UU Student Wellbeingwebsite.
-Bookmark this page so you have it handy.! Take a look through the Student Wellbeing site and find the answer to the following question. &#39;Name a service available through Student Wellbeing?Hint, check the Wellbeing TabSubmitCongratulations! Tell the Student Ambassador that the secret to Student Wellbeing at Ulster is: Once you have completed your mission, speak to the nearest Student Success Ambassador and tell **</description>
+      <description>Congratulations, you have found the path to wellbeing, a crucial step in your journey here at Ulster. Remember this office is always open to guide you on your path. Keep this knowledge close as it is as important as any lecture or book.
+Your quest is to take a look at the UU Student Wellbeingwebsite.
+Bookmark this page so you have it handy.! Take a look through the Student Wellbeing site and find the answer to the following question.</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-3/</guid>
-      <description>Congratulations, you have found the path to wellbeing, a crucial step in your journey here at Ulster. Remember this office is always open to guide you on your path. Keep this knowledge close as it is as important as any lecture or book. Take a look around and see if you can spy the quest code. Good luck! Return to the Explorer&#39;s Trail
+      <description>Your mission is to locate the heart of student wellness—the Student Wellbeing Office. This sanctuary offers support and resources essential for maintaining balance and health during your academic voyage. Be vigilant, as the path may be less travelled but crucially rewarding. Demo-QR-LinkReturn to the Explorer&#39;s Trail
 Test</description>
     </item>
     <item>
@@ -126,7 +127,7 @@ bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Succ
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-4/</guid>
       <description>quest 4
-Ready to take on the challenge? Let’s go! Return to the Explorer&#39;s Trail
+Ready to take on the challenge? Let’s go! Demo-QR-LinkReturn to the Explorer&#39;s Trail
 Test</description>
     </item>
     <item>
@@ -134,16 +135,17 @@ Test</description>
       <link>http://localhost:1313/uu-campus-quest/explorer-5-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-5-quest/</guid>
-      <description>archive
-bonus Return to the Explorer&#39;s Trail Get your card stamped by a Student Success Ambassador! </description>
+      <description>Well done, explorers! You&amp;rsquo;ve successfully navigated the corridors of knowledge to reach the library—the central hub for learning and discovery on our campus. This is where ideas come to life, and wisdom is at your fingertips. Take a moment to appreciate your surroundings and prepare for the many adventures that await you here.
+Your quest will take you to the lofty heights of the library in search of a special book.</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/explorer-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-5/</guid>
-      <description>quest 5
-Ready to take on the challenge? Let’s go! Return to the Explorer&#39;s Trail
+      <description>I am a treasure trove of knowledge, a keeper of stories old and new. Through doors of wisdom, past rows of silent guardians true. Where students seek answers, and scholars peruse, Find me where learning never snoozes.
+Where am I?
+Ready to take on the challenge? Let’s go! Demo-QR-LinkReturn to the Explorer&#39;s Trail
 Test</description>
     </item>
     <item>
@@ -159,14 +161,15 @@ Test</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lock-chest-1-brz/</guid>
       <description>Faculty Finder This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
-Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail</description>
+Demo code is 8722 Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/lock-chest-2-tmz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lock-chest-2-tmz/</guid>
-      <description>Chest 2 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: </description>
+      <description>Chest 2 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
+Demo code is 8722 Course Code:SubmitCongratulations! The combination is: </description>
     </item>
     <item>
       <title></title>
