@@ -12,9 +12,11 @@ draft = false
 {{< div-justify >}}
 Congratulations, explorers! You've successfully found the Student Administration office—well done on navigating your way here. This office is your gateway to essential services and support throughout your academic journey.
 
+Sarah to advise further
+
 ![image here](../images/quest-icon-bonus.png#right)
 {{< div-justify >}}
-bonus
+Sarah to advise further
 {{< div-end >}}
 
 {{< div-center>}}
