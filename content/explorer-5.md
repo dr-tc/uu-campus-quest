@@ -23,4 +23,3 @@ Ready to take on the challenge? Let’s go!
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___
 {{< div-center >}}[![image here](../images/lost-icon.png#center)](../lost){{< div-end >}}
-{{< div-center >}}{{< button url="../explorer-5-quest" text="Test" >}}{{< div-end >}}

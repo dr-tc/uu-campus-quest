@@ -142,10 +142,9 @@ Your quest will take you to the lofty heights of the library in search of a spec
       <link>http://localhost:1313/uu-campus-quest/explorer-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/explorer-5/</guid>
-      <description>I am a treasure trove of knowledge, a keeper of stories old and new. Through doors of wisdom, past rows of silent guardians true. Where students seek answers, and scholars peruse, Find me where learning never snoozes.
+      <description>I am a treasure trove of knowledge, a keeper of stories old and new. Through doors of wisdom, past rows of silent guardians true. Where students seek answers, and scholars peruse, Find me where learning never snoozes.
 Where am I?
-Ready to take on the challenge? Let’s go! Demo-QR-LinkReturn to the Explorer&#39;s Trail
-Test</description>
+Ready to take on the challenge? Let’s go! Demo-QR-LinkReturn to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
@@ -193,10 +192,24 @@ Demo code is 8722 Course Code:SubmitCongratulations! The combination is: </des
     </item>
     <item>
       <title></title>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-5.zzz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-5.zzz/</guid>
+      <description>Chest 2 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: </description>
+    </item>
+    <item>
+      <title></title>
       <link>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</guid>
       <description>Chest 6 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below test: Course Code:SubmitCongratulations! The combination is: </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-6.scx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-6.scx/</guid>
+      <description>Chest 2 Lock This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: </description>
     </item>
     <item>
       <title></title>
