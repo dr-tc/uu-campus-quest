@@ -14,7 +14,7 @@ You have found the hole in the wall. Easy to miss, but essential when you need t
 
 Your quest is to take a look at the {{< styled-link-new-window href="https://www.ulster.ac.uk/carparks/payments-tariffs" >}}UU Car Parking{{< /styled-link-new-window >}}webpages and work out how much **8 hours** parking will cost a student.
 {{< div-end >}}
-Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student. If you have also worked out the bonus, let the Student Success Ambassador know your secret!
+Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student. 
 ![image here](../images/quest-icon-bonus.png#right)
 {{< div-justify >}}
 Take another look at the {{< styled-link-new-window href="https://www.ulster.ac.uk/carparks/payments-tariffs" >}}UU Car Parking{{< /styled-link-new-window >}}webpages and tell the nearest Student Success Ambassador how long you can park for **free**.{{< div-end >}}
