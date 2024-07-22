@@ -21,7 +21,7 @@ Your quest is to obtain a map of the campus. This map will reveal the university
 
 ![image here](../images/quest-icon-bonus.png#right)
 {{< div-justify >}}
-To commemorate the beginning of your university journey, have a fellow student take a photo of your team outside 'Hogwarts'. If you’re ready for an extra challenge, inquire at reception about activating your student card, then locate and use the card activation beacon at the entrance of 'Hogwarts'.
+If you’re ready for an extra challenge, inquire at campus reception about activating your student card, then locate and use the card activation beacon.
 
 {{< div-end >}}
 
