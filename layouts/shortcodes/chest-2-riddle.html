@@ -1,40 +1,31 @@
 
 {{ partial "form_styles.html" }}
 <div id="form-container">
-    <label for="number1">Number of Faculties:</label>
-    <input type="text" id="number1" name="number1">
-    <br>
-    <label for="number2">Number of Schools in your Faculty:</label>
-    <input type="text" id="number2" name="number2">
-    <br>
-    <label for="number3">What is the abbreviation for your Faculty:</label>
-    <input type="text" id="number3" name="number3">
+    <label for="text1">Answer:</label>
+    <input type="text" id="text1" name="text1">
     <br>
     <button id="validateButton">Submit</button>
 </div>
-</br>
+<br>
 
 <div id="result" style="display:none;">
     <p>Congratulations! The combination is: <span id="special-code"></span></p>
 </div>
 
 <script>
-document.getElementById('validateButton').addEventListener('click', function(event) {
-    event.preventDefault();
-    
-    var num1 = Number(document.getElementById('number1').value);
-    var num2 = Number(document.getElementById('number2').value);
-    var text3 = document.getElementById('number3').value.trim().toUpperCase();
-
-    var correctNum1 = 4;
-    var correctNum2 = 6;
-    var correctText3 = 'ahss';
-
-    if (num1 === correctNum1 && num2 === correctNum2 && text3 === correctText3.toUpperCase()){
-        document.getElementById('special-code').innerText = '143';
-        document.getElementById('result').style.display = 'block';
-    } else {
-        alert('Incorrect. Please try again.');
-    }
-});
+    document.getElementById('validateButton').addEventListener('click', function(event) {
+        event.preventDefault();  // Stop the form from submitting normally
+        
+        var inputText = document.getElementById('text1').value.trim().toUpperCase();  // Normalize input
+        
+        // Check for correct answers
+        if (inputText === "A BOOK" || inputText === "BOOK") {
+            // Display the success message and code
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('special-code').textContent = '741';  // Set the code
+        } else {
+            // Notify user of incorrect input
+            alert('Incorrect. Please try again.');
+        }
+    });  // Fixed missing closing brace
 </script>
