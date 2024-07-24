@@ -17,7 +17,11 @@ draft = false
 {{< div-center >}}{{< button url="../lock-chest-1-brz" text="Demo-Treasure-Chest-1" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="../lock-chest-2-tmz" text="Demo-Treasure-Chest-2" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="../lock-chest-3-xra" text="Demo-Treasure-Chest-3" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
-{{< div-center >}}{{< button url="../lock-chest-4-dma" text="Demo-Treasure-Chest-4" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
+{{< div-center >}}{{< button url="../lock-chest-4-dmz" text="Demo-Treasure-Chest-4" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="../lock-chest-5-zzz" text="Demo-Treasure-Chest-5" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
+
+{{< div-center>}}
+*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
+{{< div-end >}}
 
 [![image here](../images/lost-icon.png#center)](../lost)

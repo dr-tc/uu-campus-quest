@@ -6,7 +6,7 @@ draft = false
 
 +++
 {{< div-center >}}{{< h1-start >}}Faculty Finder{{< h1-end >}}{{< div-end >}}
-![image here](../images/chest-3.png#center)
+![image here](../images/easter.png#center)
 {{< break-start >}}{{< break-end >}}
 In a diagram below, you'll see a grand educational tree,
 Find the faculties, how many can there be?
@@ -17,7 +17,9 @@ And reveal the total count for all to see!{{< break-start >}}{{< break-end >}}
 {{< chest-1-riddle >}}
 ![image here](../images/uni-diagram.gif#center)
 
-{{< div-center >}}*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
+{{< div-center>}}
+*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
+{{< div-end >}}
 ___
 
 [![image here](../images/lost-icon.png#center)](../lost)

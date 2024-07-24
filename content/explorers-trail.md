@@ -23,7 +23,7 @@ draft = false
 ___
 
 ### Look out for hidden treasure chests at some of the locations. If you crack the lock, prizes await!
- [![image here](../images/chest-3.png#center)](../easter)
+ [![image here](../images/chest.png#center)](../easter)
 
 ___
 

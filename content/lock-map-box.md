@@ -5,7 +5,7 @@ title = ''
 draft = false
 
 +++
-![image here](../images/chest-3.png#center)
+![image here](../images/chest-1.png#center)
 
 {{< div-center >}}This Campus Map Box is part of the Campus Quest Game. If you are playing the game, enter your course code below:
 {{< break-start >}}{{< break-end >}}
