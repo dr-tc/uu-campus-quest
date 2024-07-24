@@ -14,6 +14,9 @@ In your chosen branch, how many schools reside?
 Count them all, then look far and wide.
 Sum up each school in every faculty,
 And reveal the total count for all to see!{{< break-start >}}{{< break-end >}}
+{{< div-center>}}
+*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
+{{< div-end >}}
 
 ![image here](../images/uni-diagram.gif#center)
 

@@ -12,6 +12,9 @@ draft = false
 {{< lock-map-box >}}
 
 {{< div-end >}}
+{{< div-center>}}
+*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
+{{< div-end >}}
 ___
 
 [![image here](../images/lost-icon.png#center)](../lost)
