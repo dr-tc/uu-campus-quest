@@ -1,11 +1,13 @@
+
 {{ partial "form_styles.html" }}
 <div id="form-container">
-    <label for="number1">Course Code</label>
-    <input type="text" id="number1" name="number1">
+    <label for="text1">Hint found here: </label>
+    <label for="text1">Answer</label>
+    <input type="text" id="text1" name="text1">
     <br>
     <button id="validateButton">Submit</button>
 </div>
-</br>
+<br>
 
 <div id="result" style="display:none;">
     <p>Congratulations! The combination is: <span id="special-code"></span></p>
@@ -14,15 +16,18 @@
 
 <script>
     document.getElementById('validateButton').addEventListener('click', function(event) {
-        event.preventDefault();
+        event.preventDefault();  // Stop the form from submitting normally
         
-        const inputCode = document.getElementById('number1').value;
-        const correctCode = '8722'; 
+        var inputText = document.getElementById('text1').value.trim().toUpperCase();  // Normalize input
         
-        if (inputCode === correctCode) {
-            window.location.href = '../chest-1-brz'; 
+        // Check for correct answers
+        if (inputText === "MIND YOUR MOOD") {
+            // Display the success message and code
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('special-code').textContent = '392';  // Set the code
         } else {
-            alert('Incorrect course code. Please try again.');
+            // Notify user of incorrect input
+            alert('Incorrect. Please try again.');
         }
-    });
+    });  
 </script>
