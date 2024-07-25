@@ -15,7 +15,7 @@ draft = false
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*
 {{< div-end >}}
 
-![image here](../images/uni-diagram.gif#center)
+
 
 ___
 
