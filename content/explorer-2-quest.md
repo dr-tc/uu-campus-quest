@@ -19,7 +19,7 @@ Once you have completed your mission, speak to the nearest Student Success Ambas
 {{< div-justify >}}
 Take another look at the {{< styled-link-new-window href="https://www.ulster.ac.uk/carparks/payments-tariffs" >}}UU Car Parking{{< /styled-link-new-window >}}webpages and tell the nearest Student Success Ambassador how long you can park for **free**.{{< div-end >}}
 
-
+**Once you have completed your mission, present your campus map to the nearest Student Success Ambassador.** {{< break-start >}}{{< break-end >}}
 {{< div-center >}}*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 
 ___
