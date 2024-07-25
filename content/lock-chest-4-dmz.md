@@ -8,7 +8,7 @@ draft = false
 {{< div-center >}}{{< h1-start >}}Hunt for the Hidden Spot{{< h1-end >}}{{< div-end >}}
 ![image here](../images/chest-3.png#center)
 {{< break-start >}}{{< break-end >}}
-This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
+This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:{{< break-start >}}{{< break-end >}}
 {{< lock-chest-4-dmz >}}
 
 {{< div-center>}}
