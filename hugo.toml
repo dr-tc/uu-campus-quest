@@ -19,10 +19,7 @@ favicon = "/favicon.ico"
   name = 'Explorers Trail'
   url = '/explorers-trail'
   weight = 15
-[[menu.main]]
-  name = 'Team Odyssey'
-  url = '/team-odyssey'
-  weight = 20
+
 [[menu.main]]
   name = 'About'
   url = '/about'
