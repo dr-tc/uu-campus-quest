@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>UU Campus Quest</title>
-    <link>http://localhost:60656/uu-campus-quest/</link>
+    <link>http://localhost:1313/uu-campus-quest/</link>
     <description>Recent content on UU Campus Quest</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:60656/uu-campus-quest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/uu-campus-quest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/about/</link>
+      <link>http://localhost:1313/uu-campus-quest/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/about/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/about/</guid>
       <description>Campus Quest was designed and created by Dr Thérèse Charles who is a lecturer in Game Design and Development, based on the Derry~Londonderry campus. Credits: AI generated images from DreamStudio.aiCampus Map: ulster.ac.uk/maps/All other images created using Canva.comFree sounds from Pixabay.comQR Codes generated using AdobeExpress.comSite hosted on GitHub Pagesusing the Hugoframework.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/chest-1-brz/</link>
+      <link>http://localhost:1313/uu-campus-quest/chest-1-brz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/chest-1-brz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/chest-1-brz/</guid>
       <description>Faculty Finder In a diagram below, you&amp;rsquo;ll see a grand educational tree, Find the faculties, how many can there be? In your chosen branch, how many schools reside? Count them all, then look far and wide. Sum up each school in every faculty, And reveal the total count for all to see!
 Number of Faculties:Number of Schools in your Faculty:What is the abbreviation for your Faculty:SubmitCongratulations! The combination is: Please reset the combination lock for the next team of Explorer&#39;s</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/chest-2-tmz/</link>
+      <link>http://localhost:1313/uu-campus-quest/chest-2-tmz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/chest-2-tmz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/chest-2-tmz/</guid>
       <description>Leaves of Secrets I am not a tree, but I have leaves,
 I am not a person, but I have a spine.
 What am I?
@@ -35,9 +35,9 @@ Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/chest-3-xra/</link>
+      <link>http://localhost:1313/uu-campus-quest/chest-3-xra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/chest-3-xra/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/chest-3-xra/</guid>
       <description>Passport to Learning I am composed of digits, but dial me not.
 I grant you access, mark your attendance,
 uniquely yours, but not your name.
@@ -46,9 +46,9 @@ Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/chest-4-dmz/</link>
+      <link>http://localhost:1313/uu-campus-quest/chest-4-dmz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/chest-4-dmz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/chest-4-dmz/</guid>
       <description>Hunt for the Hidden Spot The game of spaces and lines,
 seek me beneath signs and confines.
 Finding me can be hard, in rows neatly tarred.
@@ -58,17 +58,17 @@ Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/chest-5-zzz-/</link>
+      <link>http://localhost:1313/uu-campus-quest/chest-5-zzz-/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/chest-5-zzz-/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/chest-5-zzz-/</guid>
       <description>Faculty Finder In a diagram below, you&amp;rsquo;ll see a grand educational tree, Find the faculties, how many can there be? In your chosen branch, how many schools reside? Count them all, then look far and wide. Sum up each school in every faculty, And reveal the total count for all to see!
 Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/chest-5-zzz/</link>
+      <link>http://localhost:1313/uu-campus-quest/chest-5-zzz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/chest-5-zzz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/chest-5-zzz/</guid>
       <description>Echoes of the Mind Fill in the Blank Below In learning&amp;rsquo;s realm where thoughts are deep,
 A guardian wakes to mend the sleep.
 With events and talks, we clear the gloom,
@@ -80,238 +80,238 @@ C: Watch Your Well-being Hint AnswerSubmitCongratulations! The combination is:
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/chest-6-scx/</link>
+      <link>http://localhost:1313/uu-campus-quest/chest-6-scx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/chest-6-scx/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/chest-6-scx/</guid>
       <description>Faculty Finder In a diagram below, you&amp;rsquo;ll see a grand educational tree, Find the faculties, how many can there be? In your chosen branch, how many schools reside? Count them all, then look far and wide. Sum up each school in every faculty, And reveal the total count for all to see!</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/easter/</link>
+      <link>http://localhost:1313/uu-campus-quest/easter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/easter/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/easter/</guid>
       <description>Easter Eggs! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. Demo-Treasure-Chest-1Demo-Treasure-Chest-2Demo-Treasure-Chest-3Demo-Treasure-Chest-4Demo-Treasure-Chest-5Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-1-quest/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-1-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-1-quest/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-1-quest/</guid>
       <description>Welcome to Derry/Londonderry&amp;rsquo;s campus reception! You are now in the Martha Magee building, commonly referred to as MD, and affectionately known by students as &amp;lsquo;Hogwarts&amp;rsquo;.
 Your quest is to obtain a map of the campus. This map will reveal the university&amp;rsquo;s layout, guiding you through its various paths and buildings. Demo-Campus-Box-QR-LinkIf you’re ready for an extra challenge, inquire at campus reception about activating your student card, then locate and use the card activation beacon.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-1/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-1/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-1/</guid>
       <description>Welcome to your first university adventure! Your mission is to navigate your way to the Campus reception. This journey is not just a walk; it’s a discovery of the heart of your new academic home. Engage with the vibrant campus community, build connections, and immerse yourself in the university atmosphere. Once you reach your destination, search for the QR code to continue your adventure. Ready your team and step forth with curiosity—your exciting journey begins now.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-2-quest/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-2-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-2-quest/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-2-quest/</guid>
       <description>You have found the hole in the wall. Easy to miss, but essential when you need to sort out a parking dilemma!
 Your quest is to take a look at the UU Car Parkingwebpages and work out how much 8 hours parking will cost a student. Once you have completed your mission, speak to the nearest Student Success Ambassador and tell them how much parking costs for a student.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-2/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-2/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-2/</guid>
       <description>This quest will lead you to the Car Parks office, a crucial waypoint for anyone planning to navigate the ins and outs of campus parking. This is where you’ll gather essential information on parking permits, rules, and the best spots to park. Along the way, pay close attention to the signs and landmarks; your directional skills will be put to the test.
 Whether you&amp;rsquo;re a seasoned driver or new to campus, mastering the art of parking here is a valuable skill.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-3-quest/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-3-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-3-quest/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-3-quest/</guid>
       <description>Congratulations, you have found the path to wellbeing, a crucial step in your journey here at Ulster. Remember this office is always open to guide you on your path. Keep this knowledge close as it is as important as any lecture or book.
 Your quest is to take a look at the UU Student Wellbeingwebsite.
 Bookmark this page so you have it handy! Take a look through the Student Wellbeing site and find the answer to the following question.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-3/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-3/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-3/</guid>
       <description>Your mission is to locate the heart of student wellness—the Student Wellbeing Office. This sanctuary offers support and resources essential for maintaining balance and health during your academic voyage. Be vigilant, as the path may be less travelled but crucially rewarding. Demo-QR-LinkReturn to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-4-quest/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-4-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-4-quest/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-4-quest/</guid>
       <description>Congratulations, explorers! You&amp;rsquo;ve successfully found the Student Administration office—well done on navigating your way here. This office is your gateway to essential services and support throughout your academic journey.
 Sarah to advise further
 Sarah to advise further Return to the Explorer&#39;s Trail Get your card stamped by a Student Success Ambassador! </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-4/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-4/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-4/</guid>
       <description>Welcome to your next campus challenge! Your task is to navigate your way to the Student Administration office, a crucial hub for all your administrative needs. Start at the main entrance and follow the signs. If you find yourself lost or unsure, don&amp;rsquo;t hesitate to ask a fellow student or a staff member for directions. Remember, this office is your key resource for registration, records, and much more—so it&amp;rsquo;s important to know the way!</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-5-quest/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-5-quest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-5-quest/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-5-quest/</guid>
       <description>Well done, explorers! You&amp;rsquo;ve successfully navigated the corridors of knowledge to reach the library—the central hub for learning and discovery on our campus. This is where ideas come to life, and wisdom is at your fingertips. Take a moment to appreciate your surroundings and prepare for the many adventures that await you here.
 Your quest will take you to the lofty heights of the library in search of a special book.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorer-5/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorer-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorer-5/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorer-5/</guid>
       <description>I am a treasure trove of knowledge, a keeper of stories old and new. Through doors of wisdom, past rows of silent guardians true. Where students seek answers, and scholars peruse, Find me where learning never snoozes.
 Where am I?
 Ready to take on the challenge? Let’s go! Demo-QR-LinkReturn to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/explorers-trail/</link>
+      <link>http://localhost:1313/uu-campus-quest/explorers-trail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/explorers-trail/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/explorers-trail/</guid>
       <description>First things first, bookmark this page. Roll the die to choose a quest. Once all five quests have been completed, return home to MH; your ship awaits! Look out for hidden treasure chests at some of the locations. If you crack the lock, prizes await! </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lock-chest-1-brz/</link>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-1-brz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lock-chest-1-brz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-1-brz/</guid>
       <description>Faculty Finder This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
 Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lock-chest-2-tmz/</link>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-2-tmz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lock-chest-2-tmz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-2-tmz/</guid>
       <description>Leaves of Secrets This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
 Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lock-chest-3-xra/</link>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-3-xra/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lock-chest-3-xra/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-3-xra/</guid>
       <description>Passport to Learning This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
 Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lock-chest-4-dmz/</link>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-4-dmz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lock-chest-4-dmz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-4-dmz/</guid>
       <description>Hunt for the Hidden Spot This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
 Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lock-chest-5-zzz/</link>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-5-zzz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lock-chest-5-zzz/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-5-zzz/</guid>
       <description>Echoes of the Mind This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
 Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lock-chest-6-scx/</link>
+      <link>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lock-chest-6-scx/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</guid>
       <description>Hunt for the Hidden Spot This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below test: Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lock-map-box/</link>
+      <link>http://localhost:1313/uu-campus-quest/lock-map-box/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lock-map-box/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lock-map-box/</guid>
       <description>This Campus Map Box is part of the Campus Quest Game. If you are playing the game, enter your course code below: Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/lost/</link>
+      <link>http://localhost:1313/uu-campus-quest/lost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/lost/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/lost/</guid>
       <description>Ok, don&amp;rsquo;t panic, find a place to sit down and take a look at the map. </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/map-box/</link>
+      <link>http://localhost:1313/uu-campus-quest/map-box/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/map-box/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/map-box/</guid>
       <description>Campus Map To unlock the campus map box you need to answer the following question. If the Game Design Studio building is MH, what is the Martha Magee building?SubmitCongratulations! The combination is: . Take a map and please remember to lock the box for the next Explorer.
 Return to Cartographer&#39;s Tool Return to the Explorer&#39;s Trail</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/name-off/</link>
+      <link>http://localhost:1313/uu-campus-quest/name-off/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/name-off/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/name-off/</guid>
       <description>Name Off!
 &lt;!DOCTYPE html&gt;Enter number of teams:Start GameWho lost? Enter the losing team number:
 Submit LossCountdown Play AudioSuccess Play AudioGame Over Play AudioNext Level Play Audio</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/odyssey-1/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/odyssey-1/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-1/</guid>
       <description>Learn Each Other’s Names: Spend time with your team and get to know everyone. Ensure that each team member knows the names of every other person in the group. This is a crucial step as you will need to remember each name accurately.
 Practice Together: Practice reciting everyone’s names as a team. Take turns and ensure that each name is pronounced correctly. Pay attention to the pronunciation of each name and help each other to say them right.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/odyssey-2/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/odyssey-2/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-2/</guid>
       <description>Gather Your Materials: Find a whiteboard or a large piece of paper, along with some markers or pens. Ensure there’s enough space for everyone to draw and see the clues clearly.
 Pick Your Game: Each team member should think of their favourite game. It could be a video game, a board game, a card game, or any type of game they enjoy.
 Take Turns Drawing: One by one, each team member will take a turn drawing clues related to their chosen game on the whiteboard or paper.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/odyssey-3/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/odyssey-3/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-3/</guid>
       <description>Preparation by the Student Success Ambassador:
 Each team member is to approach a Student Success Ambassador and get a sticky note placed on their back or forehead. Each note has the name of a famous game character written on it. These characters could be from popular video games, board games, or any well-known game.
 The aim is for each participant to guess the character’s name on their sticky note by asking questions that can only be answered with &amp;ldquo;yes&amp;rdquo; or &amp;ldquo;no&amp;rdquo;.</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/odyssey-4/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/odyssey-4/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-4/</guid>
       <description>Challenge Time! Reflect on your experience from Quest 1 and discuss among your team to identify who has the sharpest memory. Nominate that person to be your champion in the Name-Off quest!
 Minutes:Seconds:Start CountdownStop00:00Enter the secret password:Submit</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/odyssey-5/</link>
+      <link>http://localhost:1313/uu-campus-quest/odyssey-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/odyssey-5/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/odyssey-5/</guid>
       <description>put narrative text here
 Return to Team Odyssey</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/team-odyssey/</link>
+      <link>http://localhost:1313/uu-campus-quest/team-odyssey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/team-odyssey/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/team-odyssey/</guid>
       <description>Complete quests 1 through to 3,
 then get ready for a team face-off!</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:60656/uu-campus-quest/treasure-1/</link>
+      <link>http://localhost:1313/uu-campus-quest/treasure-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60656/uu-campus-quest/treasure-1/</guid>
+      <guid>http://localhost:1313/uu-campus-quest/treasure-1/</guid>
       <description>Title! On your journey around the campus, keep an eye out for green treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you. ___</description>
     </item>
   </channel>
