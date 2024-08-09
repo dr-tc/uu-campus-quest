@@ -7,29 +7,23 @@ draft = false
 +++
 
 {{< div-center >}}{{< image-map >}}
-{{< row >}}
-{{< column >}}
-{{< div-container-start>}} {{< h3-start >}}First things first, bookmark this page. {{< break-start >}}{{< break-end >}}Roll the die to choose a quest. Once all five quests have been completed, return home to MH; your ship awaits! {{< h3-end>}}{{< div-container-end>}}{{< column-end >}}
-{{< column >}}{{< div-container-start>}} 
-![image here](../images/dice.png#center){{< div-container-end>}}
-{{< column-end >}}
-{{< row-end >}}
+
+## Welcome to Explorer's Quest.
+
+First things first, bookmark this page so you can return to it after each quest.
+
+### Instructions: 
+
+This quest will see you set off around the campus to visit five locations. Each team has been given a quest card and a die. Roll the die to choose a quest from the list below. Once all five quests have been completed, return home to MH; your ship awaits!
 ___
 
-{{< row >}}
-    {{< column >}}
-        {{< div-container-start>}}
-           [![image here](../images/chest-3.png#center)](../lost)
-        {{< div-container-end>}}
-    {{< column-end >}}
-    {{< column >}}
-        {{< div-container-start>}}
-            {{< h3-start >}}For the eagle-eyed amongst you, keep a look out for Treasure Chests at some of the locations. If you crack the lock, prizes await!{{< break-start >}} {{< break-end >}}Click here to find out more.  {{< h3-end>}}
-        {{< div-container-end>}}
-    {{< column-end >}}
-{{< row-end >}}
+### For the eagle-eyed amongst you, keep a look out for Treasure Chests at some of the locations. If you crack the lock, prizes await!{{< break-start >}} {{< break-end >}} {{< div-center >}}*{{< styled-link href="../easter" >}}Click here to find out more.{{< /styled-link >}}*{{< div-end >}}
+
+[![image here](../images/chest-3.png#center)](../easter)
 ___
-## Roll the die and set off on your quest!
+{{< h2-start >}}Role the die and start playing! {{< h2-end>}}
+![image here](../images/dice.png#center){{< div-container-end>}}
+
 [![image here](../images/explorer-1.png#center)](../explorer-1)
 [![image here](../images/explorer-2.png#center)](../explorer-2)
 [![image here](../images/explorer-3.png#center)](../explorer-3)
