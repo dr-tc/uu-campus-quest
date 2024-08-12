@@ -22,12 +22,13 @@ ___
 ### Stage One: The Explorer’s Trail
 
 {{< div-justify >}}
-In the first stage of your quest, you and your team will embark on the Explorer’s Trail.  {{< break-start>}}{{< break-end >}}This is not just a tour of the campus; it is a series of challenges designed to help you master the lay of the land. You will visit essential locations, from the bustling campus reception to the serene student wellbeing office. At each stop, search for a **QR code** that will provide the details of the quest. Each **QR Code** will reveal instructions and tasks that you must complete, making every location a critical waypoint that will enhance your knowledge and prepare you for the journey ahead. 
+In the first stage of your quest, you and your team will embark on the Explorer’s Trail.  {{< break-start>}}{{< break-end >}}This is not just a tour of the campus; it is a series of challenges designed to help you master the lay of the land. You will visit essential locations, from the bustling campus reception to the serene student wellbeing office. At each stop, search for a **QR code** that will provide the details of the quest. Each **QR Code** will reveal instructions and tasks that you must complete, making every location a critical waypoint that will enhance your knowledge and prepare you for the journey ahead.
 
 {{< div-end >}}
 {{< column-end >}}
 {{< column >}}
-![image here](images/campus-quest-start.png#center)
+![image here](images/campus-quest-start.png#center){{< break-start >}}{{< break-end >}}
+{{< div-center >}}{{< button url="explorers-trail" text="Start Your Journey Here!" >}}{{< div-end >}}
 {{< column-end >}}
 {{< row-end >}}
 
