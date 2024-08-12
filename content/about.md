@@ -15,7 +15,7 @@ draft = false
 {{< column-end >}}
 
 {{< row-end >}}
-This project is a collaborative effort with the {{< styled-link-new-window href="https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre" >}}Student Success team{{< /styled-link-new-window >}}, aimed at enhancing the 1st Year induction experience during Welcome Week.
+This project is a collaborative effort with the {{< styled-link-new-window href="https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre" >}}Student Success Team{{< /styled-link-new-window >}}, aimed at enhancing the 1st Year induction experience during Welcome Week.
 
 
 ### Credits:{{< break-end >}}
