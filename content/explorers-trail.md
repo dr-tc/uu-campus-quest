@@ -8,13 +8,13 @@ draft = false
 
 {{< div-center >}}{{< image-map >}}
 
-## Welcome to Explorer's Quest.
+## Welcome to Explorer's Quest
 
 First things first, bookmark this page so you can return to it after each quest.
 
-### Instructions: 
+### Instructions
 
-This quest will see you set off around the campus to visit five locations. Each team has been given a quest card and a die. Roll the die to choose a quest from the list below. Once all five quests have been completed, return home to MH; your ship awaits!
+This quest will see you set off around the campus to visit five locations. Each team has been given a quest card and a dice. Roll the dice to choose a quest from the list below. Once all five quests have been completed, return home to MH; your ship awaits!
 ___
 
 ### For the eagle-eyed amongst you, keep a look out for Treasure Chests at some of the locations. If you crack the lock, prizes await!{{< break-start >}} {{< break-end >}} {{< div-center >}}*{{< styled-link href="../easter" >}}Click here to find out more.{{< /styled-link >}}*{{< div-end >}}
