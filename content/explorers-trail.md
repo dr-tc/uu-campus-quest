@@ -6,7 +6,7 @@ draft = false
 
 +++
 
-{{< div-center >}}{{< image-map >}}
+[![image here](../images/explorer.png#center)](../easter)
 
 ## Welcome to Explorer's Quest
 
