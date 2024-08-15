@@ -10,6 +10,8 @@ draft = false
 
 On your journey around the campus, keep an eye out for treasure boxes. These mysterious boxes hold more than just a secret, they hold prizes! Scan the QR code on the side of each treasure box, and if you crack the code, exciting rewards await you.
 ___
+
+[comment]: # (add this around all these buttons to hide before game start)
 {{< div-center >}}{{< button url="../lock-chest-1-brz" text="Demo-Campus-Reception" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="../lock-chest-2-tmz" text="Demo-Library" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="../lock-chest-3-xra" text="Demo-Student-Admin" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
