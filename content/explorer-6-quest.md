@@ -20,7 +20,7 @@ Once you have bookmarked **Start with Success**, approach a Student Success Amba
 {{< div-justify >}}
 Why don't the Student Success Team ever play hide and seek? Because good luck hiding when everyone always wants to find you for help!
 
-Why not take a leap of faith and approach a member of the team? You might just discover something invaluable that could help chart the course of your university experience.
+Why not take a leap of faith and approach a member of the team? You might just discover something invaluable that could help chart the course of your university experience. Once you have spoken to a member of the Student Success Team, approach a Student Success Ambassador and tell them what you have learned. 
 
 Here are some conversation starters:
 1. Hello, I'm studying game design and development and just started my first year. What's one campus spot I should definitely know about?
