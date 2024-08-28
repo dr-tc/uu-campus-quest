@@ -12,8 +12,8 @@
       <link>http://localhost:1313/uu-campus-quest/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/about/</guid>
-      <description>Campus Quest was designed and developed by Dr. Thérèse Charles, a lecturer in Game Design and Development at the Derry~Londonderry campus. This project is a collaborative effort with the Student Success Team, aimed at enhancing the 1st Year induction experience during Welcome Week.
-Credits: AI generated images from DreamStudio.aiAll other images created using Canva.comCampus Map ulster.ac.uk/maps/Free sounds from Pixabay.comQR Codes generated using AdobeExpress.comSite hosted on GitHub Pagesusing the Hugoframework.</description>
+      <description>Campus Quest was designed and developed by Dr. Thérèse Charles, a lecturer in Game Design and Development at the Derry~Londonderry campus. This project is a collaborative effort with the Student Success Centre, aimed at enhancing the 1st Year induction experience during Welcome Week.
+Credits: AI generated/enhanced images from DreamStudio.aiAll other images created using Canva.comCampus Map ulster.ac.uk/maps/Free sounds from Pixabay.comQR Codes generated using AdobeExpress.comSite hosted on GitHub Pagesusing the Hugoframework.</description>
     </item>
     <item>
       <title></title>
@@ -83,7 +83,12 @@ C: Watch Your Well-being Enter A, B or CAnswerSubmitCongratulations! The comb
       <link>http://localhost:1313/uu-campus-quest/chest-7-ddd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/chest-7-ddd/</guid>
-      <description>Faculty Finder In a diagram below, you&amp;rsquo;ll see a grand educational tree, Find the faculties, how many can there be? In your chosen branch, how many schools reside? Count them all, then look far and wide. Sum up each school in every faculty, And reveal the total count for all to see!
+      <description>Achievement Unlocked The Student Success Centre offers many services and resources.
+One in particular helps with this.
+I add up your scores, and divide your pies,
+Multiply your fun, and subtract the lies.
+What am I? HINT: Check out the Student Successpage.
+AnswerSubmitCongratulations! The combination is: Please reset the combination lock for the next team of Explorers
 Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
@@ -243,14 +248,16 @@ Course Code:SubmitCongratulations! The combination is: Return to the Explorer&
       <link>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</guid>
-      <description>Hunt for the Hidden Spot This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below test: Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
+      <description>Hunt for the Hidden Spot This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
+Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/uu-campus-quest/lock-chest-7-ddd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/uu-campus-quest/lock-chest-7-ddd/</guid>
-      <description>Achievement Unlocked This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below test: Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
+      <description>Achievement Unlocked This treasure chest is part of the Campus Quest Game. If you are playing the game, enter your course code below:
+Course Code:SubmitCongratulations! The combination is: Return to the Explorer&#39;s Trail </description>
     </item>
     <item>
       <title></title>

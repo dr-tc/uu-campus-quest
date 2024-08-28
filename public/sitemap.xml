@@ -14,11 +14,11 @@
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/chest-4-dmz/</loc>
   </url><url>
-    <loc>http://localhost:1313/uu-campus-quest/chest-5-zzz-/</loc>
-  </url><url>
     <loc>http://localhost:1313/uu-campus-quest/chest-5-zzz/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/chest-6-scx/</loc>
+  </url><url>
+    <loc>http://localhost:1313/uu-campus-quest/chest-7-ddd/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/easter/</loc>
   </url><url>
@@ -42,6 +42,8 @@
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/explorer-5/</loc>
   </url><url>
+    <loc>http://localhost:1313/uu-campus-quest/explorer-6-quest/</loc>
+  </url><url>
     <loc>http://localhost:1313/uu-campus-quest/explorer-6/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/explorers-trail/</loc>
@@ -57,6 +59,8 @@
     <loc>http://localhost:1313/uu-campus-quest/lock-chest-5-zzz/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/lock-chest-6-scx/</loc>
+  </url><url>
+    <loc>http://localhost:1313/uu-campus-quest/lock-chest-7-ddd/</loc>
   </url><url>
     <loc>http://localhost:1313/uu-campus-quest/lock-map-box/</loc>
   </url><url>
