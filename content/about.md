@@ -37,3 +37,4 @@ Many thanks to all the professional services department staff who participated i
 - Student Wellbeing Team
 - Car Parking - Michaela Farren
 - Campus Reception - Edele O'Kane
+- Student Success Centre
