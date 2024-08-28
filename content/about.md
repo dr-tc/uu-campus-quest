@@ -30,7 +30,7 @@ This project is a collaborative effort with the {{< styled-link-new-window href=
 
 ### Thanks to:{{< break-end >}}
 
-Many thanks to all the professional services department staff who participated in the game, with special appreciation for our inaugural cohort of Student Success Ambassadors.
+Many thanks to all the professional services staff who participated in the game, with special appreciation for our inaugural cohort of Student Success Ambassadors.
 
 - Library Team
 - Student Administration Team
