@@ -26,7 +26,7 @@ This project is a collaborative effort with the {{< styled-link-new-window href=
 - QR Codes generated using {{< styled-link-new-window href="<https://new.express.adobe.com/tools/generate-qr-code>" >}}AdobeExpress.com{{< /styled-link-new-window >}}
 - Site hosted on {{< styled-link-new-window href="<https://pages.github.com/>" >}}GitHub Pages{{< /styled-link-new-window >}} using the {{< styled-link-new-window href="<https://gohugo.io/>" >}}Hugo{{< /styled-link-new-window >}} framework.
 - Treasure Chests donated by Prof Odette Hutchinson, PVC Academic Quality & Student Experience (AQSE).
-- Treasure Chest prizes provided by the {{< styled-link-new-window href="<https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre>" >}}Student Success Team.{{< /styled-link-new-window >}}
+- Treasure Chest prizes provided by the {{< styled-link-new-window href="<https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre>" >}}Student Success Centre.{{< /styled-link-new-window >}}
 
 ### Thanks to:{{< break-end >}}
 
