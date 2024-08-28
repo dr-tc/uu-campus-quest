@@ -17,6 +17,7 @@ ___
 {{< div-center >}}{{< button url="../lock-chest-3-xra" text="Demo-Student-Admin" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="../lock-chest-4-dmz" text="Demo-Car-Parking" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}{{< button url="../lock-chest-5-zzz" text="Demo-Student-Wellbeing" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
+{{< div-center >}}{{< button url="../lock-chest-7-ddd" text="Demo-Student-Success" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 
 {{< div-center>}}
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*

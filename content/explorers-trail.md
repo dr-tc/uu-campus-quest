@@ -29,5 +29,6 @@ ___
 [![image here](../images/explorer-3.png#center)](../explorer-3)
 [![image here](../images/explorer-4.png#center)](../explorer-4)
 [![image here](../images/explorer-5.png#center)](../explorer-5)
+[![image here](../images/explorer-6.png#center)](../explorer-6)
 ___
 [![image here](../images/lost-icon.png#center)](../lost){{< div-end >}}
