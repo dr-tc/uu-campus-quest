@@ -19,7 +19,7 @@ This project is a collaborative effort with the {{< styled-link-new-window href=
 
 ### Credits:{{< break-end >}}
 
-- AI generated images from {{< styled-link-new-window href="<https://dreamstudio.ai/generate>" >}}DreamStudio.ai{{< /styled-link-new-window >}}
+- AI generated/enhanced images from {{< styled-link-new-window href="<https://dreamstudio.ai/generate>" >}}DreamStudio.ai{{< /styled-link-new-window >}}
 - All other images created using {{< styled-link-new-window href="<https://www.canva.com/>" >}}Canva.com{{< /styled-link-new-window >}}
 - Campus Map {{< styled-link-new-window href="<https://www.ulster.ac.uk/maps/derry-londonderry>" >}}ulster.ac.uk/maps/{{< /styled-link-new-window >}}
 - Free sounds from {{< styled-link-new-window href="<https://www.pixabay.com/>" >}}Pixabay.com{{< /styled-link-new-window >}}
