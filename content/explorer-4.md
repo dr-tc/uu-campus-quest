@@ -1,3 +1,4 @@
+
 +++
 title = ''
 
@@ -14,7 +15,8 @@ Welcome to your next campus challenge! Your task is to navigate your way to the 
 What are you waiting for!
 {{< div-end >}}
 {{< image src="../quest-4-find-me.png" alt="Responsive image" width="60%" height="auto" >}}
-{{< div-center >}}{{< button url="../explorer-4-quest" text="Demo-QR-Link" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
+
+[comment]: # ({{< div-center >}}{{< button url="../explorer-4-quest" text="Demo-QR-Link" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}})
 {{< div-center >}}
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___

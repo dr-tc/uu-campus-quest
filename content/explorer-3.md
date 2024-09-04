@@ -12,7 +12,8 @@ draft = false
 {{< div-end >}}
 
 {{< image src="../quest-3-find-me.png" alt="Responsive image" width="60%" height="auto" >}}
-{{< div-center >}}{{< button url="../explorer-3-quest" text="Demo-QR-Link" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
+
+[comment]: # ({{< div-center >}}{{< button url="../explorer-3-quest" text="Demo-QR-Link" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}})
 {{< div-center >}}
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___
