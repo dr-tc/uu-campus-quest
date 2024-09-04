@@ -21,4 +21,3 @@ What are you waiting for!
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___
 [![image here](../images/lost-icon.png#center)](../lost)
-{{< div-center >}}{{< button url="../explorer-4-quest" text="Test" >}}{{< div-end >}}
