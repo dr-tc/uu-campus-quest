@@ -16,7 +16,7 @@ Whether you're a seasoned driver or new to campus, mastering the art of parking 
 Ready to take on the challenge? Let’s go!
 {{< image src="../quest-2-find-me.png" alt="Responsive image" width="60%" height="auto" >}}
 
-[comment]: # ({{< div-center >}}{{< button url="../explorer-2-quest" text="Demo-QR-Link" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}})
+{{< div-center >}}{{< button url="../explorer-2-quest" text="Demo Link to Quest" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-end >}}
 {{< div-center >}}
 *{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}

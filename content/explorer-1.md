@@ -12,7 +12,7 @@ Welcome to your first university adventure! Your mission is to navigate your way
 {{< div-end >}}
 {{< image src="../quest-1-find-me.png" alt="Responsive image" width="60%" height="auto" >}}
 
-[comment]: # ({{< div-center >}}{{< button url="../explorer-1-quest" text="Demo-QR-Link" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}})
+{{< div-center >}}{{< button url="../explorer-1-quest" text="Demo Link to Quest" >}}{{< div-end >}}{{< break-start >}}{{< break-end >}}
 {{< div-center >}}*{{< styled-link href="../explorers-trail" >}}Return to the Explorer's Trail{{< /styled-link >}}*{{< div-end >}}
 ___
 [![image here](../images/lost-icon.png#center)](../lost)
