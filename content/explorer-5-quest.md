@@ -20,7 +20,7 @@ Once you have successfully secured the book, input the authors surname below:
 {{< quest-5-riddle >}}
 ![image here](../images/quest-icon-bonus.png#right)
 {{< div-justify >}}
-Why did the password go to the kiosk? To get a reset because it was feeling "unsecure"! Now, it's your turn, head the kiosk so you can keep your login details safe and sound. Once you reach this cryptic kiosk, figure out the **length of a standard university password** and tell a Student Success Ambassador the magic number.
+Why did the password go to the kiosk? To get a reset because it was feeling "unsecure"! Now, it's your turn, find the password kiosk so you can keep your login details safe and sound. Once you reach this cryptic kiosk, figure out the **length of a standard university password** and tell a Student Success Ambassador the magic number.
 {{< div-end >}}
 
 {{< div-center>}}
