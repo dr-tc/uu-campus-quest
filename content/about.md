@@ -21,6 +21,7 @@ This project is a collaborative effort with the {{< styled-link-new-window href=
 
 - AI generated/enhanced images from {{< styled-link-new-window href="<https://dreamstudio.ai/generate>" >}}DreamStudio.ai{{< /styled-link-new-window >}}
 - All other images created using {{< styled-link-new-window href="<https://www.canva.com/>" >}}Canva.com{{< /styled-link-new-window >}}
+- Ulster University Logo &copy; Ulster University
 - Campus Map {{< styled-link-new-window href="<https://www.ulster.ac.uk/maps/derry-londonderry>" >}}ulster.ac.uk/maps/{{< /styled-link-new-window >}}
 - Free sounds from {{< styled-link-new-window href="<https://www.pixabay.com/>" >}}Pixabay.com{{< /styled-link-new-window >}}
 - QR Codes generated using {{< styled-link-new-window href="<https://new.express.adobe.com/tools/generate-qr-code>" >}}AdobeExpress.com{{< /styled-link-new-window >}}
