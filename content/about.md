@@ -14,20 +14,21 @@ draft = false
 
 {{< column-end >}}
 
+
 {{< row-end >}}
-This project is a collaborative effort with the {{< styled-link-new-window href="<https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre>" >}}Student Success Centre{{< /styled-link-new-window >}}, aimed at enhancing the 1st Year induction experience during Welcome Week.
+This project is a collaborative effort with the {{< styled-link-new-window href="https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre" >}}Student Success Centre{{< /styled-link-new-window >}}, aimed at enhancing the 1st Year induction experience during Welcome Week.
 
 ### Credits:{{< break-end >}}
 
-- AI generated/enhanced images from {{< styled-link-new-window href="<https://dreamstudio.ai/generate>" >}}DreamStudio.ai{{< /styled-link-new-window >}}
-- All other images created using {{< styled-link-new-window href="<https://www.canva.com/>" >}}Canva.com{{< /styled-link-new-window >}}
+- AI generated/enhanced images from {{< styled-link-new-window href="https://dreamstudio.ai/generate" >}}DreamStudio.ai{{< /styled-link-new-window >}}
+- All other images created using {{< styled-link-new-window href="https://www.canva.com/" >}}Canva.com{{< /styled-link-new-window >}}
 - Ulster University Logo &copy; Ulster University
-- Campus Map {{< styled-link-new-window href="<https://www.ulster.ac.uk/maps/derry-londonderry>" >}}ulster.ac.uk/maps/{{< /styled-link-new-window >}}
-- Free sounds from {{< styled-link-new-window href="<https://www.pixabay.com/>" >}}Pixabay.com{{< /styled-link-new-window >}}
-- QR Codes generated using {{< styled-link-new-window href="<https://new.express.adobe.com/tools/generate-qr-code>" >}}AdobeExpress.com{{< /styled-link-new-window >}}
-- Site hosted on {{< styled-link-new-window href="<https://pages.github.com/>" >}}GitHub Pages{{< /styled-link-new-window >}} using the {{< styled-link-new-window href="<https://gohugo.io/>" >}}Hugo{{< /styled-link-new-window >}} framework.
+- Campus Map {{< styled-link-new-window href=https://www.ulster.ac.uk/maps/derry-londonderry" >}}ulster.ac.uk/maps/{{< /styled-link-new-window >}}
+- Free sounds from {{< styled-link-new-window href="https://www.pixabay.com/" >}}Pixabay.com{{< /styled-link-new-window >}}
+- QR Codes generated using {{< styled-link-new-window href="https://new.express.adobe.com/tools/generate-qr-code" >}}AdobeExpress.com{{< /styled-link-new-window >}}
+- Site hosted on {{< styled-link-new-window href="https://pages.github.com/" >}}GitHub Pages{{< /styled-link-new-window >}} using the {{< styled-link-new-window href="https://gohugo.io/" >}}Hugo{{< /styled-link-new-window >}} framework.
 - Treasure Chests donated by Prof Odette Hutchinson, PVC Academic Quality & Student Experience (AQSE).
-- Treasure Chest prizes provided by the {{< styled-link-new-window href="<https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre>" >}}Student Success Centre.{{< /styled-link-new-window >}}
+- Treasure Chest prizes provided by the {{< styled-link-new-window href="https://www.ulster.ac.uk/departments/academic-quality-and-student-experience/student-success-centre" >}}Student Success Centre.{{< /styled-link-new-window >}}
 
 ### Thanks to:{{< break-end >}}
 
